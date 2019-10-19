@@ -1,0 +1,3557 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- saved from url=(0053)http://ht.home.capitalonline.net/jsp/contract/new.jsp -->
+<html style="" class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>CDS-用户中心-合同管理</title>
+<style type="text/css">
+.tab-content {
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	padding: 5px;
+}
+
+.eventNone {
+	pointer-events: none;
+}
+</style>
+
+<meta http-equiv="Access-Control-Allow-Origin" content="*">
+<!-- Bootstrap -->
+<link href="./CDS-用户中心-合同管理-新增合同_files/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="./CDS-用户中心-合同管理-新增合同_files/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
+<link href="./CDS-用户中心-合同管理-新增合同_files/jquery-ui.css" rel="stylesheet" media="screen">
+<link href="./CDS-用户中心-合同管理-新增合同_files/daterangepicker.css" rel="stylesheet" media="screen">
+<link href="./CDS-用户中心-合同管理-新增合同_files/bootstrap-datepicker.min.css" rel="stylesheet" media="screen">
+<link href="./CDS-用户中心-合同管理-新增合同_files/styles.css" rel="stylesheet" media="screen">
+<link href="./CDS-用户中心-合同管理-新增合同_files/DT_bootstrap.css" rel="stylesheet" media="screen">
+<link href="./CDS-用户中心-合同管理-新增合同_files/green.css" rel="stylesheet" media="screen">
+<link href="./CDS-用户中心-合同管理-新增合同_files/ucenter.css" rel="stylesheet" media="screen">
+<link href="./CDS-用户中心-合同管理-新增合同_files/style.css" rel="stylesheet" type="text/css">
+<link href="./CDS-用户中心-合同管理-新增合同_files/zTreeStyle.css" rel="stylesheet" type="text/css">
+<!--[if lte IE 8]><script language="javascript" type="text/javascript" src="/view/vendors/flot/excanvas.min.js"></script><![endif]-->
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="./CDS-用户中心-合同管理-新增合同_files/modernizr-2.6.2-respond-1.1.0.min.js.下载"></script>
+<script src="./CDS-用户中心-合同管理-新增合同_files/jquery-1.9.1.js.下载"></script>
+<script src="./CDS-用户中心-合同管理-新增合同_files/jquery-ui.js.下载"></script>
+<script src="./CDS-用户中心-合同管理-新增合同_files/jquery.form.js.下载"></script>
+<script src="./CDS-用户中心-合同管理-新增合同_files/jquery.placeholder.min.js.下载"></script>
+<script src="./CDS-用户中心-合同管理-新增合同_files/jquery.cookie.js.下载"></script>
+<script src="./CDS-用户中心-合同管理-新增合同_files/knockout-3.3.0.js.下载"></script>
+<script src="./CDS-用户中心-合同管理-新增合同_files/knockout.mapping.js.下载"></script>
+<script src="./CDS-用户中心-合同管理-新增合同_files/spin.min.js.下载"></script><style type="text/css"></style>
+
+<script src="./CDS-用户中心-合同管理-新增合同_files/bootstrap.min.js.下载"></script>
+<script src="./CDS-用户中心-合同管理-新增合同_files/jquery.dataTables.js.下载"></script>
+<script src="./CDS-用户中心-合同管理-新增合同_files/dataTables.tableTools.js.下载"></script>
+<script src="./CDS-用户中心-合同管理-新增合同_files/scripts.js.下载"></script>
+<script src="./CDS-用户中心-合同管理-新增合同_files/json2.js.下载"></script>
+<script src="./CDS-用户中心-合同管理-新增合同_files/DT_bootstrap.js.下载"></script>
+<script src="./CDS-用户中心-合同管理-新增合同_files/moment.min.js.下载"></script>
+<script src="./CDS-用户中心-合同管理-新增合同_files/daterangepicker.js.下载"></script>
+<script src="./CDS-用户中心-合同管理-新增合同_files/bootstrap-datepicker.min.js.下载"></script>
+<script src="./CDS-用户中心-合同管理-新增合同_files/bootstrap-datepicker.zh-CN.min.js.下载"></script>
+<script src="./CDS-用户中心-合同管理-新增合同_files/icheck.min.js.下载"></script>
+<script src="./CDS-用户中心-合同管理-新增合同_files/jquery.validate.min.js.下载"></script>
+<script src="./CDS-用户中心-合同管理-新增合同_files/messages_cn.js.下载"></script>
+<script src="./CDS-用户中心-合同管理-新增合同_files/common.js.下载"></script>
+<script src="./CDS-用户中心-合同管理-新增合同_files/appUtils.js.下载"></script>
+<script src="./CDS-用户中心-合同管理-新增合同_files/orderService.js.下载"></script>
+<script src="./CDS-用户中心-合同管理-新增合同_files/handoverService.js.下载"></script>
+<script src="./CDS-用户中心-合同管理-新增合同_files/service.js.下载"></script>
+<link href="./CDS-用户中心-合同管理-新增合同_files/common.css" rel="stylesheet" media="screen">
+<link href="./CDS-用户中心-合同管理-新增合同_files/select2.css" rel="stylesheet" media="screen">
+<script src="./CDS-用户中心-合同管理-新增合同_files/location.js.下载"></script>
+<script src="./CDS-用户中心-合同管理-新增合同_files/select2.js.下载"></script>
+<script src="./CDS-用户中心-合同管理-新增合同_files/select2_locale_zh-CN.js.下载"></script>
+<script src="./CDS-用户中心-合同管理-新增合同_files/ajaxfileupload.js.下载"></script>
+<script src="./CDS-用户中心-合同管理-新增合同_files/sea.js.下载"></script>
+<script>
+	var opts = {
+		lines : 13, // 花瓣数目
+		length : 20, // 花瓣长度
+		width : 10, // 花瓣宽度
+		radius : 30, // 花瓣距中心半径
+		corners : 1, // 花瓣圆滑度 (0-1)
+		rotate : 0, // 花瓣旋转角度
+		direction : 1, // 花瓣旋转方向 1: 顺时针, -1: 逆时针
+		color : '#5882FA', // 花瓣颜色
+		speed : 1, // 花瓣旋转速度
+		trail : 60, // 花瓣旋转时的拖影(百分比)
+		shadow : true, // 花瓣是否显示阴影
+		hwaccel : true, //spinner 是否启用硬件加速及高速旋转            
+		className : 'spinner', // spinner css 样式名称
+		zIndex : 2e9, // spinner的z轴 (默认是2000000000)
+		top : '50%', // spinner 相对父容器Top定位 单位 px
+		left : '50%'// spinner 相对父容器Left定位 单位 px
+	};
+	var spinner = new Spinner(opts);
+	
+	seajs.config({
+		base:"/view/"
+	});
+</script>
+</head>
+<body>
+	
+
+
+
+
+
+
+
+
+
+<div class="navbar-fixed-top" style="background-color: white;">
+	<dl class="head">
+		<dd>
+			<a href="http://ht.home.capitalonline.net/action/main" class="logo"></a>
+		</dd>
+		<dd class="app">合同管理系统</dd>
+		<dd class="right">
+			<dl class="help">
+				<dd>
+					欢迎登录：<span id="currentUserName">张三</span>
+				</dd>
+				<dd>
+				<a href="javascript:logout()">退出</a>
+				</dd>
+				<!--<dd><a href="#"><span class="glyphicon glyphicon-question-sign"></span> 帮助</a></dd>-->
+			</dl>
+		</dd>
+	</dl>
+	<div class="navigate">
+		<ul class="nav nav-pills">
+			<li class="indent"></li>
+			
+			<li class="top-level-nav" tabindex="1"><a href="http://ht.home.capitalonline.net/action/main">首页</a></li>
+			
+			
+			<li class="top-level-nav" tabindex="2"><a href="http://ht.home.capitalonline.net/jsp/contract/new.jsp#">员工管理</a>
+				<ul class="dropdown-menu">
+					
+					<li><a href="http://ht.home.capitalonline.net/action/employee/list">员工列表</a></li>
+					
+				</ul>
+			</li>
+			
+			
+			<li class="top-level-nav" tabindex="3"><a href="http://ht.home.capitalonline.net/jsp/contract/new.jsp#">客户管理</a>
+				<ul class="dropdown-menu">
+					
+					<li><a tabindex="-1" href="http://ht.home.capitalonline.net/jsp/customer/list.jsp">客户列表</a></li>
+					
+					
+					<li><a href="http://ht.home.capitalonline.net/jsp/customer/customerNewList.jsp">客户查询（法务）</a></li>
+					
+					
+					<li><a href="http://ht.home.capitalonline.net/jsp/contract/saler_search.jsp">客户查询（销售）</a></li>
+					
+					
+					<li><a href="http://ht.home.capitalonline.net/jsp/contract/customerService_search.jsp">客户查询（客服）</a></li>					
+										
+					
+					<li><a href="http://ht.home.capitalonline.net/jsp/contract/new.jsp#">客户交接<span class="glyphicon glyphicon-chevron-right"></span></a>
+						<ul class="dropdown-menu">
+							
+							<li><a href="http://ht.home.capitalonline.net/jsp/contract/handover/handoverList.jsp">交接单列表</a></li>
+								
+							
+							<li><a href="http://ht.home.capitalonline.net/jsp/contract/handover/handoverAuditList.jsp">交接单审核列表</a></li>
+								
+							
+							<li><a href="http://ht.home.capitalonline.net/jsp/contract/handover/handoverConfirmList.jsp">交接单确认列表</a></li>
+								
+							
+							<li><a href="http://ht.home.capitalonline.net/jsp/contract/handover/handoverCustomerList.jsp">交接客户列表</a></li>
+								
+							
+							<li><a href="http://ht.home.capitalonline.net/jsp/contract/handover.jsp">客户交接</a></li>
+							
+							
+							<li><a href="http://ht.home.capitalonline.net/jsp/customer/customer_handover/queryCustomerHandover.jsp">客户交接日志列表</a></li>
+							
+						</ul>
+					</li>
+				
+					
+					
+					<li><a href="http://ht.home.capitalonline.net/jsp/customer/customerNameHisList.jsp">客户曾用名列表</a></li>
+					
+	
+					
+					<li><a href="http://ht.home.capitalonline.net/jsp/customer/viewList.jsp">客户信息查看</a></li>
+					
+				
+					
+					<li><a href="http://ht.home.capitalonline.net/jsp/customer/subsidiaryLog.jsp">客户重名日志列表</a></li>
+					<li><a href="http://ht.home.capitalonline.net/jsp/customer/mainSubordinateCustomer.jsp">客户重名列表</a></li>
+					
+					
+					<li><a href="http://ht.home.capitalonline.net/jsp/customer/levelLog.jsp">客户等级日志列表</a></li>
+					
+					
+					<li><a href="http://ht.home.capitalonline.net/jsp/customer/customerCorrespondence.jsp">力通客户对应列表</a></li>
+					<li><a href="http://ht.home.capitalonline.net/jsp/customer/customerCorrespondenceLog.jsp">力通客户对应表操作日志列表</a></li>
+					
+					
+					<li><a href="http://ht.home.capitalonline.net/jsp/customer/loseCustomerList.jsp">流失客户查询（质量）</a></li>
+					
+                    
+                        <li><a href="http://ht.home.capitalonline.net/jsp/customer/secondPartyChangeList.jsp">乙方公司变更表</a></li>
+                    
+                    
+                        <li><a href="http://ht.home.capitalonline.net/jsp/customer/customerMerge.jsp">客户合并与拆分</a></li>
+                    
+				</ul>
+			</li>
+			
+			
+			<li class="top-level-nav active" tabindex="4"><a href="http://ht.home.capitalonline.net/jsp/contract/new.jsp#">合同管理</a>
+				<ul class="dropdown-menu">
+					
+					<li><a href="http://ht.home.capitalonline.net/jsp/contract/contractNewList.jsp">新增合同</a></li>
+					
+					
+					<li><a href="http://ht.home.capitalonline.net/jsp/contract/contractConfirmList.jsp">审核合同</a></li>
+					
+					
+					<li><a href="http://ht.home.capitalonline.net/jsp/contract/new.jsp#">未计费合同<span class="glyphicon glyphicon-chevron-right"></span></a>
+						<ul class="dropdown-menu">
+							
+							<li><a href="http://ht.home.capitalonline.net/jsp/contract/contractNewCharg.jsp">新增未计费合同</a></li>
+							
+						    
+							<li><a href="http://ht.home.capitalonline.net/jsp/contract/contractConfirmCharg.jsp">审核未计费合同</a></li>
+							
+							
+							<li><a href="http://ht.home.capitalonline.net/jsp/contract/contractChargeing.jsp">变更计费合同</a></li>
+							
+							
+							<li><a href="http://ht.home.capitalonline.net/jsp/contract/termChargeingList.jsp">审核终止未计费合同</a></li>
+							
+							
+							<li><a href="http://ht.home.capitalonline.net/jsp/contract/contractConfirmChargeing.jsp">审核计费合同</a></li>
+							
+							
+							<li><a href="http://ht.home.capitalonline.net/jsp/contract/indexCharg.jsp">未计费合同查询</a></li>
+							
+						</ul>
+					</li>
+				
+					
+					<li><a href="http://ht.home.capitalonline.net/jsp/contract/contractConfirmTgList.jsp">审核通过合同</a></li>
+					
+					
+					<li><a href="http://ht.home.capitalonline.net/jsp/contract/contractConfirmZxList.jsp">执行中合同</a></li>
+					
+					
+					<li><a href="http://ht.home.capitalonline.net/jsp/contract/closeContract/contractConfirmZzList.jsp">终止审核合同</a></li>
+					
+					
+					<li><a href="http://ht.home.capitalonline.net/jsp/contract/index.jsp">查询合同</a></li>
+					
+					
+					<li><a href="http://ht.home.capitalonline.net/jsp/contract/detailSearch.jsp">合同详情</a></li>
+					
+					
+					<li><a href="http://ht.home.capitalonline.net/jsp/contract/expire.jsp">即将到期合同列表</a></li>
+					
+					
+					<li><a href="http://ht.home.capitalonline.net/jsp/contract/history_index.jsp">合同销售历史记录 </a></li>
+					
+					
+					<li><a href="http://ht.home.capitalonline.net/jsp/contract/contractTransfer.jsp"> 合同移交 </a></li>
+					
+					
+					<li><a href="http://ht.home.capitalonline.net/jsp/contract/import_data.jsp">合同导入</a></li>					
+					
+				
+					<li><a href="http://ht.home.capitalonline.net/jsp/contract/new.jsp#">合同维护<span class="glyphicon glyphicon-chevron-right"></span></a>
+						<ul class="dropdown-menu">
+							
+					<li><a href="http://ht.home.capitalonline.net/jsp/contract/modifyContract/modifyContractSalerList.jsp">新增修改合同申请单-销售</a></li>
+					
+				    
+					<li><a href="http://ht.home.capitalonline.net/jsp/contract/modifyContract/modifyContractList.jsp">新增修改合同申请单-运营</a></li>
+					
+					
+					<li><a href="http://ht.home.capitalonline.net/jsp/contract/modifyContract/modifyContractConfirmList.jsp">审核修改合同申请单-运营</a></li>
+					
+					
+					<li><a href="http://ht.home.capitalonline.net/jsp/contract/modifyContract/modifyContractConfirmSalerList.jsp">审核修改合同申请单-销售</a></li>
+					
+					 
+					<li><a href="http://ht.home.capitalonline.net/jsp/contract/deleteContract/deleteContractList.jsp">新增删除合同申请单</a></li>
+					
+					
+					<li><a href="http://ht.home.capitalonline.net/jsp/contract/deleteContract/deleteContractConfirmList.jsp">审核删除合同申请单</a></li>
+					
+						</ul>
+					</li>
+					
+					
+						<li><a href="http://ht.home.capitalonline.net/jsp/contract/new.jsp#">法务维护<span class="glyphicon glyphicon-chevron-right"></span></a>
+							<ul class="dropdown-menu">
+								
+								<li><a href="http://ht.home.capitalonline.net/jsp/contract/contractSealFileList.jsp">盖章/归档合同</a></li>	
+								
+								<li><a href="http://ht.home.capitalonline.net/jsp/contract/upload/addUploadCustomer.jsp">客户上传-新增</a></li>
+								<li><a href="http://ht.home.capitalonline.net/jsp/contract/upload/customerUpload.jsp">客户上传-检索</a></li>
+								
+								<li><a href="http://ht.home.capitalonline.net/jsp/contract/upload/addUpload2.jsp">合同上传-新增</a></li>
+								
+								
+								
+								<li><a href="http://ht.home.capitalonline.net/jsp/contract/upload/contractUpload.jsp">合同上传-检索</a></li>
+								
+								
+								<li><a href="http://ht.home.capitalonline.net/jsp/notice/queryNotice.jsp">欠费/断网通知书</a></li>
+								
+							</ul>
+						</li>
+					
+					
+					
+					
+				</ul>
+			</li>
+			
+			
+			<li class="top-level-nav" tabindex="5"><a href="http://ht.home.capitalonline.net/jsp/contract/new.jsp#">账单管理</a>
+				<ul class="dropdown-menu aa">
+					
+					<li><a href="http://ht.home.capitalonline.net/jsp/contract/new.jsp#">减免账单<span class="glyphicon glyphicon-chevron-right"></span></a>
+						<ul class="dropdown-menu">
+							
+							<li><a href="http://ht.home.capitalonline.net/jsp/contract/bill/jmspNewList.jsp">新增审批单列表</a></li>
+							
+							
+							<li><a href="http://ht.home.capitalonline.net/jsp/contract/bill/jmspConfirmList.jsp">审核审批单列表</a></li>
+							
+							
+							<li><a href="http://ht.home.capitalonline.net/jsp/contract/bill/jmspList.jsp">减免审批单列表</a></li>
+							
+						<!-- <li><a href="/jsp/contract/bill/jmspAdd.jsp">创建减免审批单</a></li> -->
+						</ul>
+					</li>
+					
+					
+					<li><a href="http://ht.home.capitalonline.net/jsp/contract/new.jsp#">超流量账单<span class="glyphicon glyphicon-chevron-right"></span></a>
+						<ul class="dropdown-menu">
+							
+							<li><a href="http://ht.home.capitalonline.net/jsp/contract/exceed_data/exceedDataFinanceList.jsp">超流量-销售确认</a></li>
+							
+							
+							<li><a href="http://ht.home.capitalonline.net/jsp/contract/exceed_data/exceedDataCustomerList.jsp">超流量-单客户查询</a></li>
+							
+							
+							<li><a href="http://ht.home.capitalonline.net/jsp/contract/exceed_data/exceedDataCalculateRuleList.jsp">核算规则</a></li>
+							
+							
+							<li><a href="http://ht.home.capitalonline.net/jsp/contract/exceed_data/exceedDataRelationList.jsp">对应关系</a></li>
+							
+							
+							<li><a href="http://ht.home.capitalonline.net/jsp/contract/exceed_data/ExceedDataList.jsp">超流量-新增列表</a></li>
+							
+							
+							<li><a href="http://ht.home.capitalonline.net/jsp/contract/exceed_data/confirmExceedData.jsp">超流量-财务确认</a></li>
+							
+							
+							<li><a href="http://ht.home.capitalonline.net/jsp/contract/exceed_data/queryExceedData.jsp">超流量-查询</a></li>
+							
+							
+						</ul>
+					</li>
+					
+					<!-- 
+					
+					 -->
+					
+					<li><a href="http://ht.home.capitalonline.net/jsp/contract/bill/gather.jsp">账单按合同查询</a></li>
+					
+					
+					<li><a href="http://ht.home.capitalonline.net/jsp/contract/bill/detail.jsp">账单按产品查询</a></li>
+					
+					
+					<li><a href="http://ht.home.capitalonline.net/jsp/contract/bill/detailWithDerate.jsp">账单按产品查询(减免到产品)</a></li>
+					
+					
+					<li><a href="http://ht.home.capitalonline.net/jsp/contract/billZx.jsp">执行账单</a></li>
+					
+					
+					
+					
+						<li><a href="http://ht.home.capitalonline.net/jsp/contract/new.jsp#">合同调整账单<span class="glyphicon glyphicon-chevron-right"></span></a>
+							<ul class="dropdown-menu">
+								
+									<li><a href="http://ht.home.capitalonline.net/jsp/contract/importBill/queryContractAdjust.jsp">合同调整账单查询</a></li>
+								
+							</ul>
+						</li>
+					
+					
+					<li><a href="http://ht.home.capitalonline.net/jsp/contract/closedBill/closedBill.jsp">账单关账</a></li>
+					
+					
+					<li><a href="http://ht.home.capitalonline.net/jsp/contract/importBill/queryBill.jsp">账单查询</a></li>
+					
+				</ul>
+			</li>
+			
+			
+			<li class="top-level-nav" tabindex="6"><a href="http://ht.home.capitalonline.net/jsp/contract/new.jsp#">应收管理</a>
+				<ul class="dropdown-menu">
+					
+					<li><a href="http://ht.home.capitalonline.net/jsp/contract/ar/arCustomerDetail.jsp">合同应收按客户查询</a></li>
+					
+					
+					<li><a href="http://ht.home.capitalonline.net/jsp/contract/ar/arDetail.jsp">合同应收按合同查询</a></li>
+					
+					
+					<li><a href="http://ht.home.capitalonline.net/jsp/contract/arBegin.jsp">执行合同应收款</a></li>
+					
+					
+					
+						<li><a href="http://ht.home.capitalonline.net/jsp/contract/receiveQuery/receiveArrearsQuery.jsp">应收&amp;欠款查询</a></li>
+					
+					
+						<li><a href="http://ht.home.capitalonline.net/jsp/contract/receiveQuery/queryReceive.jsp">应收查询</a></li>
+					
+				</ul>
+			</li>
+			
+			
+			<li class="top-level-nav" tabindex="7"><a href="http://ht.home.capitalonline.net/jsp/contract/new.jsp#">发票管理</a>
+					<ul class="dropdown-menu">
+					
+					<li><a href="http://ht.home.capitalonline.net/jsp/contract/invoiceNew/invoiceManageList.jsp">发票管理</a></li>
+					<li><a href="http://ht.home.capitalonline.net/jsp/contract/invoiceNew/invoiceQueryList.jsp">发票查询</a></li>
+					<li><a href="http://ht.home.capitalonline.net/jsp/contract/invoiceNew/queryReturnInvoice.jsp">退票查询</a></li>
+					
+					
+			
+				</ul>
+			</li>
+			
+			
+			<li class="top-level-nav" tabindex="8"><a href="http://ht.home.capitalonline.net/jsp/contract/new.jsp#">收款管理</a>
+				<ul class="dropdown-menu">
+				
+			       		 
+					 <li><a href="http://ht.home.capitalonline.net/jsp/contract/import/importCapitalDaily.jsp">资金日报</a></li>
+					
+					
+					<li><a href="http://ht.home.capitalonline.net/jsp/contract/gatheringNew/gatheringRefundList.jsp">收款/退款</a></li>
+					
+					
+					<li><a href="http://ht.home.capitalonline.net/jsp/contract/gatheringNew/gatheringQuery.jsp">收款/退款查询</a></li>
+					
+					
+					<li><a href="http://ht.home.capitalonline.net/jsp/contract/gatheringNew/gatheringBill.jsp">收款账单发票查询</a></li>
+					
+					
+					<li><a href="http://ht.home.capitalonline.net/jsp/contract/gatheringNew/debtList.jsp">欠款查询</a></li>
+					
+					
+					<li><a href="http://ht.home.capitalonline.net/jsp/contract/gatheringNew/unRelationInvoiceGathering.jsp">未关联发票收款查询</a></li>
+					
+					
+					<li><a href="http://ht.home.capitalonline.net/jsp/contract/adjustBill/gicDataList.jsp">传GIC数据查询</a></li>
+					
+					
+					<li><a href="http://ht.home.capitalonline.net/jsp/contract/gatheringNew/closeContractRefundQuery.jsp">终止合同待退款查询</a></li>
+								
+					
+					<li><a href="http://ht.home.capitalonline.net/jsp/contract/gathering/unclaimedCustomerAmount.jsp">未认领客户查询</a></li>
+										
+					
+					<li><a href="http://ht.home.capitalonline.net/jsp/contract/adjustBill/adjustBill.jsp">调账</a></li>
+							
+					
+					<li><a href="http://ht.home.capitalonline.net/jsp/contract/adjustBill/queryAdjustBill.jsp">调账查询</a></li>
+					
+					
+						<li><a href="http://ht.home.capitalonline.net/jsp/contract/invoice_other/unreceivableInvoice.jsp">未收款发票</a></li>
+					
+					
+						<li><a href="http://ht.home.capitalonline.net/jsp/contract/gatheringNew/overdueDebtList.jsp">超期欠款查询</a></li>
+					
+				</ul>
+			
+			</li>
+			
+			
+			<li class="top-level-nav" tabindex="9"><a href="http://ht.home.capitalonline.net/jsp/contract/new.jsp#">报表管理</a>
+				<ul class="dropdown-menu aa">
+					
+						<li><a href="http://ht.home.capitalonline.net/jsp/contract/import/importBudget.jsp">财务报表(导入)</a></li>
+					
+					
+						<li><a href="http://ht.home.capitalonline.net/jsp/contract/new.jsp#">导入数据表<span class="glyphicon glyphicon-chevron-right"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="http://ht.home.capitalonline.net/jsp/system/createTableConstruction.jsp">创建表导入数据</a></li>
+							<li><a href="http://ht.home.capitalonline.net/jsp/system/tableDataList.jsp">数据查询</a></li>
+						</ul>
+					</li>
+					
+				</ul>
+			</li>
+			
+			
+			<li class="top-level-nav" tabindex="10"><a href="http://ht.home.capitalonline.net/jsp/contract/new.jsp#">资源管理</a>
+				<ul class="dropdown-menu">
+					
+					<li><a href="http://ht.home.capitalonline.net/jsp/resource/index.jsp">IP管理</a></li>
+					
+					
+					<li><a href="http://ht.home.capitalonline.net/jsp/resource/manage/index.jsp">资源查询</a></li>
+					
+					
+					<li><a href="http://ht.home.capitalonline.net/jsp/resource/manage/list.jsp">剩余资源查询</a></li>
+					
+					
+					<li><a href="http://ht.home.capitalonline.net/jsp/resource/manage/new.jsp">添加资源</a></li>
+					
+					
+					<li><a href="http://ht.home.capitalonline.net/jsp/resource/manage/newReserved.jsp">添加预留资源</a></li>
+					
+					
+					<li><a href="http://ht.home.capitalonline.net/jsp/resource/manage/release.jsp">释放资源</a></li>
+					
+				</ul>
+			</li>
+			
+			
+			
+			<li class="top-level-nav" tabindex="11"><a href="http://ht.home.capitalonline.net/jsp/contract/new.jsp#">系统设置</a>
+				<ul class="dropdown-menu">
+				<!-- 
+					
+					<li><a href="/jsp/contact/contact-list.jsp">用户管理</a></li>
+					
+					 -->
+					
+					<li><a href="http://ht.home.capitalonline.net/jsp/auth/roleManage.jsp">角色管理</a></li>
+					
+					
+					<li><a href="http://ht.home.capitalonline.net/jsp/auth/companyManage.jsp">乙方公司管理</a></li>
+					
+					<!-- 
+					
+					 
+					
+					
+					
+					-->
+					
+					<li><a href="http://ht.home.capitalonline.net/jsp/contract/department/index.jsp">部门管理</a></li>
+					
+					
+					<li><a href="http://ht.home.capitalonline.net/jsp/contract/upDownLoad.jsp">帮助文档上传下载</a></li>
+					
+					<li><a target="_new" href="http://ht.home.capitalonline.net/docs/help.jsp">帮助文档</a></li>
+					
+					<li><a href="http://ht.home.capitalonline.net/jsp/auth/employeeRoleCompany.jsp">权限检查</a></li>
+					
+					
+					<li><a href="http://ht.home.capitalonline.net/jsp/dataDictionary/dataDictionaryManage.jsp">数据字典</a></li>
+					
+					
+					<li><a href="http://ht.home.capitalonline.net/jsp/system/taskScheduleManage.jsp">定时任务管理</a></li>
+					
+					
+					<li><a href="http://ht.home.capitalonline.net/jsp/auth/resourceBelongManage.jsp">资源归属管理</a></li>
+					
+					
+					<li><a href="http://ht.home.capitalonline.net/jsp/auth/authorityLog.jsp">权限日志</a></li>
+					
+				</ul>
+			</li>
+			
+			  
+			
+			<li class="top-level-nav" tabindex="13"><a href="http://ht.home.capitalonline.net/jsp/contract/new.jsp#">对账平台</a>
+					<ul class="dropdown-menu">
+						
+							<li><a href="http://ht.home.capitalonline.net/jsp/checkBill/checkBillReportForms.jsp">对账报表</a></li>
+						
+						
+							<li><a href="http://ht.home.capitalonline.net/jsp/contract/new.jsp#">客户月对账单<span class="glyphicon glyphicon-chevron-right"></span></a>
+								<ul class="dropdown-menu">
+									
+										<li><a href="http://ht.home.capitalonline.net/jsp/checkBill/checkBillConfirm.jsp">对账单确认</a></li>
+									
+									
+										<li><a href="http://ht.home.capitalonline.net/jsp/checkBill/historyCheckBill.jsp">对账单历史查询列表</a></li>
+									
+									
+										<li><a href="http://ht.home.capitalonline.net/jsp/checkBill/questionCheckBillQuery.jsp">对账单问题查询列表</a></li>
+									
+									
+										<li><a href="http://ht.home.capitalonline.net/jsp/checkBill/confirmBillQuery.jsp">对账单确认情况查询列表</a></li>
+									
+								</ul>
+							</li>
+						
+						
+							<li><a href="http://ht.home.capitalonline.net/jsp/contract/checkBill/bill.jsp">系统与U8对账单</a></li>
+						
+						
+							<li><a href="http://ht.home.capitalonline.net/jsp/contract/checkBill/capitalDailyCheckWithGather.jsp">系统与资金日报对账单</a></li>
+						
+					</ul>
+				</li>
+			
+			
+		
+			<li class="top-level-nav" tabindex="14"><a href="http://ht.home.capitalonline.net/jsp/contract/new.jsp#">凭证管理</a>
+					<ul class="dropdown-menu">
+						
+						<li><a href="http://ht.home.capitalonline.net/jsp/contract/report/gatherVoucherTemplate.jsp">收款凭证</a></li>
+						
+						
+						<li><a href="http://ht.home.capitalonline.net/jsp/contract/report/refundVoucherTemplate.jsp">退款凭证</a></li>
+						
+						
+						<li><a href="http://ht.home.capitalonline.net/jsp/contract/report/adjustVoucherTemplate.jsp">调账凭证</a></li>
+						
+						
+						<li><a href="http://ht.home.capitalonline.net/jsp/contract/report/unclaimedVoucherTemplate.jsp">未认领凭证</a></li>
+						
+					</ul>
+				</li>
+		
+			
+				<li class="top-level-nav" tabindex="27"><a href="http://ht.home.capitalonline.net/jsp/contract/new.jsp#">工单管理</a>
+					<ul class="dropdown-menu  newcolor ">
+						
+							<li><a href="javascript: window.open(resourceUrl + &#39;/jsp/workOrder/workOrderAll.jsp?getMenu=1&#39;)">工单列表</a></li>
+						
+						
+							<li><a href="javascript: window.open(resourceUrl + &#39;/jsp/workOrder/workOrderUnAssign.jsp?getMenu=1&#39;)">未分配工单列表</a></li>
+						
+						
+							<li><a href="javascript: window.open(resourceUrl + &#39;/jsp/workOrder/workOrderAssign.jsp?getMenu=1&#39;)">已分配工单列表</a></li>
+						
+						
+							<li><a href="javascript: window.open(resourceUrl + &#39;/jsp/workOrder/workOrderConfirm.jsp?getMenu=1&#39;)">确认工单列表</a></li>
+						
+						
+							<li><a href="javascript: window.open(resourceUrl + &#39;/jsp/workOrder/workOrderFormal.jsp?getMenu=1&#39;)">正式工单列表</a></li>
+						
+						
+							<li><a href="http://ht.home.capitalonline.net/jsp/contract/new.jsp#">客户测试<span class="glyphicon glyphicon-chevron-right"></span></a>
+								<ul class="dropdown-menu">
+									
+										<li><a href="javascript: window.open(resourceUrl + &#39;/jsp/workOrder/workOrderTestOverdue.jsp?getMenu=1&#39;)">超期测试列表</a></li>
+									
+									
+										<li><a href="javascript: window.open(resourceUrl + &#39;/jsp/workOrder/workOrderTest.jsp?getMenu=1&#39;)">测试工单列表</a></li>
+									
+									
+										<li><a href="javascript: window.open(resourceUrl + &#39;/jsp/workOrder/workOrderOnTest.jsp?getMenu=1&#39;)">测试中工单列表</a></li>
+									
+									
+										<li><a href="javascript: window.open(resourceUrl + &#39;/jsp/workOrder/customerInUseProductList.jsp?getMenu=1&#39;)">客户在用产品列表</a></li>
+									
+								</ul>
+							</li>
+						
+						
+							<li><a href="http://ht.home.capitalonline.net/jsp/contract/new.jsp#">内部测试<span class="glyphicon glyphicon-chevron-right"></span></a>
+								<ul class="dropdown-menu">
+									
+										<li><a href="javascript: window.open(resourceUrl + &#39;/jsp/workOrder/workOrderInner.jsp?getMenu=1&#39;)">内部工单列表</a></li>
+									
+									
+										<li><a href="javascript: window.open(resourceUrl + &#39;/jsp/workOrder/selfUseProductList.jsp?getMenu=1&#39;)">内部资源产品列表</a></li>
+									
+								</ul>
+							</li>
+						
+					</ul>
+				</li>
+			
+	
+		
+		</ul>
+	</div>
+</div>
+<script>
+	var fnTopConsole = {
+		INDEX_Employee : 1,
+		INDEX_Customer : 2,
+		INDEX_Authority : 3,
+		INDEX_Contract : 4,
+		INDEX_Resource : 5,
+		INDEX_Maintain : 6,
+		focus : function(index) {
+			$('.navbar .navbar-inner .container-fluid .nav-collapse ul li').removeClass('active');
+			$('.styleTop >li:eq(' + index + ')').addClass('active');
+		}
+	}
+	$('#alterpasswordFrom').validate({
+		rules : {
+			password : {
+				required : true,
+				rangelength : [ 6, 12 ]
+			},
+			newpassword : {
+				required : true,
+				rangelength : [ 6, 12 ]
+			},
+			confirmpassword : {
+				required : true,
+				rangelength : [ 6, 12 ],
+				equalTo : "#newpassword"
+			},
+		},
+		messages : {}
+	});
+	function alterpasswordView() {
+		$("#alterpassword input").val("");
+		$(".modal-footer .btnh").remove();
+		$("#alterpassword h3").html("修改密码");
+		$(".alert").addClass("hide");
+		var $required = $("<a class='btnh btn-w-i btn-h' href='#' onclick='alterpassword()'>修改</a>");
+		$(".modal-footer").prepend($required);
+		$.ajax({
+			url : "/action/employee/get",
+			type : "GET",
+			dataType : 'json',
+			success : function(data) {
+				if (data.regions != null) {
+					$("#alterpassword").addClass("in");
+					$("#alterpassword").css("display", "block");
+					$("#alterpassword").attr("aria-hidden", false);
+					$("body").append("<div class='modal-backdrop  in'></div>");
+				}
+			}
+		});
+	}
+	function alterpassword() {
+		if (!$('#alterpasswordFrom').valid())
+			return false;
+		var sendData = {
+			password : $("#password").val(),
+			newPassword : $("#newpassword").val(),
+		};
+		$.ajax({
+			url : "/action/alterpassword",
+			type : 'POST',
+			contentType : "application/json",
+			dataType : 'json',
+			data : JSON.stringify(sendData),
+			processData : false,
+			success : function(data) {
+				if (data.status == "success") {
+					_close("#alterpassword");
+					$(".modal-backdrop").hide();
+				} else {
+					$(".alert").removeClass("hide");
+					$(".alert").html(data.errMsg);
+				}
+			}
+		});
+	}
+	function reportOpen(url){
+		 window.open(url+$.cookie('current_user_id'));
+	}
+	function logout() {
+		window.location.href="about:blank";
+		window.close();
+		
+		CloseWebPage();
+		/*
+		var localUrl = location.href;
+		if(localUrl.indexOf("ht.home.com") > -1){
+			CloseWebPage();
+			return;
+		}
+		$.ajax({
+			url : "/action/logout",
+			type : 'POST',
+			contentType : "application/json",
+			processData : false,
+			success : function(data) {
+
+				window.location.href = '/';
+			//	window.location.href = 'ht.com';
+			}
+		});
+		*/
+	}
+	function CloseWebPage(){
+		if (navigator.userAgent.indexOf("MSIE") > 0) {
+			if (navigator.userAgent.indexOf("MSIE 6.0") > 0) {
+				window.opener = null;
+				window.close();
+			} else {
+				window.open('', '_top');
+				window.top.close();
+			}
+		}else if (navigator.userAgent.indexOf("Firefox") > 0) {
+			window.location.href = 'about:blank ';
+		} else {
+			window.opener = null;
+			window.open('', '_self', '');
+			window.close();
+		}
+	}
+
+	function _close(id) {
+		$('body').css('overflow', 'scroll');
+		$(id).removeClass("in");
+		$(id).css("display", "none");
+		$(id).attr("aria-hidden", true);
+		$(".modal-backdrop").hide();
+	}
+	var menuUrlIndexObj = {
+			'/action/main' : 1,
+			'/action/employee' : 2,
+			'/jsp/customer' : 3,
+			'/jsp/contract/' : 4,			
+			'/jsp/notice/' : 4,
+			'/jsp/contract/importBill/' : 5,
+			'/jsp/contract/exceed_data/' : 5,
+			'/jsp/contract/bill/' : 5,
+			'/jsp/contract/billZx.jsp':5,
+			'/jsp/contract/closedBill/closedBill.jsp' : 5,
+			'/jsp/contract/arBegin.jsp':6,
+			'/jsp/contract/ar/' : 6,
+			'/jsp/contract/receiveQuery/':6,
+			'/jsp/contract/invoiceNew/' : 7,
+			'/jsp/merge/advanceReceived/' : 8,
+			'/jsp/contract/gatheringNew/' : 8,
+			'/jsp/contract/import/importCapitalDaily.jsp' : 8,
+			'/jsp/contract/refund/' : 8,
+			'/jsp/contract/adjustBill/' : 8,
+			'/jsp/contract/invoice_other/unreceivableInvoice.jsp':8,
+			'/jsp/contract/gathering/unclaimedCustomerAmount.jsp':8,
+			'/jsp/contract/report/' : 9,		
+			'/jsp/contract/report_bill/' : 9,
+			'/jsp/resource/' : 10,
+			'/jsp/resource/productInfo.jsp' : 9,
+			'/jsp/system/createTableConstruction.jsp' : 9,
+			'/jsp/system/tableDataList.jsp' : 9,
+			
+			'/jsp/contact/' : 11,
+			'/jsp/auth/' : 11,
+			'/action/permission/' : 11,
+			'/jsp/permission/' : 11,
+			'/jsp/contract/department/' : 11,
+			'/jsp/contract/saler_search.jsp' : 3,
+			'/jsp/contract/customerService_search.jsp' : 3,
+			'/jsp/contract/handover.jsp' : 3,
+			'/jsp/contract/handover/handoverList.jsp' : 3,
+			'/jsp/contract/handover/handoverConfirmList.jsp' : 3,
+			'/jsp/contract/handover/handoverConfirm.jsp' : 3,
+			'/jsp/contract/handover/handoverAuditList.jsp' : 3,
+			'/jsp/contract/handover/handoverAudit.jsp' : 3,
+			'/jsp/contract/handover/handoverCreate.jsp' : 3,
+			'/jsp/contract/handover/customerDetail.jsp' : 3,
+			'/jsp/contract/handover/handoverCustomerList.jsp' : 3,
+			'/jsp/contract/handover/handoverDetail.jsp' : 3,
+			'/jsp/contract/handover/handoverEdit.jsp' : 3,
+			'/jsp/customer/loseCustomerList.jsp' : 3,
+			'/jsp/contract/upDownLoad.jsp' : 11,
+			'/jsp/checkBill/' : 13,
+			'/jsp/contract/checkBill/' : 13,
+			'/jsp/contract/report/gatherVoucherTemplate.jsp' : 14,
+			'/jsp/contract/report/refundVoucherTemplate.jsp' : 14,
+			'/jsp/contract/report/adjustVoucherTemplate.jsp' : 14,
+			'/jsp/contract/report/unclaimedVoucherTemplate.jsp' : 14
+		};
+	
+	$(document).ready(function() {
+		var locationHref = window.location.href;
+		var nav_focus_index;
+		for(var key in menuUrlIndexObj){
+			//urlPattern = new RegExp(key);
+			//if(urlPattern.test(locationHref)){
+			if(locationHref.indexOf(key) > -1){
+				nav_focus_index = menuUrlIndexObj[key];
+				//console.info(nav_focus_index);
+			}
+			//console.info(key + "\t\t" +urlPattern.test(locationHref));
+		}
+		//console.info($("li[tabindex='" + nav_focus_index + "']"));
+		$("li[tabindex='" + nav_focus_index + "']").addClass("active");
+		
+		$('#currentUserName').text($.cookie('current_user_username'));
+		TableTools.DEFAULTS.sSwfPath = '/view/vendors/datatables/TableTools-2.2.4/swf/copy_csv_xls_pdf.swf';
+		
+		// 访问页面 增加 访问日志
+		if (!dealUrl()) return
+		http.post(s_contractservice + '/authInterface/saveMenuOrButtonOperLog', {operType: 1, path: dealUrl(), url: ''});
+	});
+	
+	var pageWidth = document.body.clientWidth;
+	var pageHeight = document.body.clientHeight;
+	
+	
+
+
+
+</script>
+
+
+	<div class="container-fluid contract">
+		<div class="row-fluid">
+			<div>
+				<div class="block">
+					<div class="navbar navbar-inner block-header">
+						<div class="muted pull-left">
+							合同管理 - 新建 <i class="icon-list"></i>
+						</div>
+					</div>
+					<div style="padding: 10px">
+						<div class="block-content collapse in" style="padding-bottom: 0px; padding: 0;">
+							<ul class="nav nav-tabs">
+								<li class="active"><a id="tabOrder0" href="http://ht.home.capitalonline.net/jsp/contract/new.jsp#tab1" data-toggle="tab">新增合同</a></li>
+								<li><a id="tabOrder" href="http://ht.home.capitalonline.net/jsp/contract/new.jsp#tab2" class="eventNone" data-toggle="tab">新增工单</a></li>
+							</ul>
+						</div>
+						<div class="tab-content">
+							<div class="tab-pane active" id="tab1">
+								<div class="block-content">
+									<form id="frm" class="form-inline" style="padding: 10px;" novalidate="novalidate">
+										<fieldset>
+											<legend>合同信息</legend>
+
+											<table class="tbl-6 nowrap" id="tblinfo">
+												<tbody>
+													<tr>
+														<th>合同属性：</th>
+														<td>新签</td>
+														<th class="required" aria-required="true">客户名称：</th>
+														<td><input class="search-input ui-autocomplete-input" type="text" id="search.customerName" name="customerName" data-bind="value: frm.customerName" autocomplete="off"> <input type="hidden" data-bind="value: frm.customerId" value=""></td>
+
+														<th>客户编号：</th>
+														<td data-bind="text: frm.customerNo"></td>
+													</tr>
+													<tr>
+														<th class="required" aria-required="true">开始日期：</th>
+														<td>
+															<div class="input-prepend input-group">
+																<span class="add-on input-group-addon"><i class="icon-calendar"></i></span><input type="text" class="daterange" name="beginDate" data-bind="value: frm.beginDate">
+															</div>
+														</td>
+														<th class="required" aria-required="true">结束日期：</th>
+														<td>
+															<div class="input-prepend input-group">
+																<span class="add-on input-group-addon"><i class="icon-calendar"></i></span><input type="text" class="daterange" name="endDate" data-bind="value: frm.endDate">
+															</div>
+														</td>
+														<th class="required" aria-required="true">服务期：</th>
+														<td><div class="input-group input-append">
+																<input type="text" readonly="" class="float" name="serviceLife" data-bind="value: frm.serviceLife">
+																<span class="add-on input-group-addon">月</span>
+															</div></td>
+													</tr>
+													<tr>
+														<th>销售代表：</th>
+														<td data-bind="text: frm.createBy">张三</td>
+														<th class="required" aria-required="true">乙方：</th>
+														<td><select class="search-select" id="secondParty" name="secondParty" data-bind="options: dict.secondParty, optionsText: &#39;value&#39;, optionsValue: &#39;id&#39;, value: frm.secondParty,
+        optionsCaption: &#39;- 请选择 -&#39;,event: {change: event.selectSecondParty}"><option value="">- 请选择 -</option></select></td>
+														<th class="required" aria-required="true">业务类型：</th>
+														<td><select data-bind="enable: flag(), options: dict.type, optionsValue:&#39;id&#39;, optionsText: &#39;value&#39;, value: frm.type,
+        optionsCaption: &#39;根据产品自动选择&#39;" name="type" disabled=""><option value="">根据产品自动选择</option><option value="1">基础服务</option><option value="2">增值服务</option><option value="3">云平台</option><option value="4">代购</option><option value="5">视频服务</option><option value="6">大数据服务</option><option value="7">其他</option></select></td>
+
+													</tr>
+													<tr>
+														<th class="required" aria-required="true">付款方式：</th>
+														<td><select name="paymentMethod" data-bind="options: dict.payMethod,
+        optionsValue:&#39;id&#39;, optionsText: &#39;value&#39;, value: frm.payMethod, optionsCaption: &#39;- 请选择 -&#39;"><option value="">- 请选择 -</option></select></td>
+														<!--<th class="required">账期（天）：</th><td><select name="paymentDays" data-bind="options: dict.paymentDays,
+        optionsValue:'value', optionsText: 'value', value: frm.paymentDays"></select></td> -->
+														<th>短期合同：</th>
+														<td><input type="checkbox" name="shortFlag" id="shortFlag" value="1"> <label>是</label>&nbsp;&nbsp;&nbsp;
+															<!-- <a style='color: #666666; font-weight: bold;'>一次性合同：</a>
+															<label><input type="checkbox" id="disposableFlag"
+																name="disposableFlag" value="1"
+																data-bind="click:
+        event.checkDisposableFlag(this)" />
+																是</label> --></td>
+														<th class="required" aria-required="true">币种：</th>
+														<td><select class="search-select" id="secondParty" name="secondParty" data-bind="options: dict.secondParty, optionsText: &#39;value&#39;, optionsValue: &#39;id&#39;, value: frm.secondParty,
+       													 optionsCaption: &#39;- 请选择 -&#39;,event: {change: event.selectSecondParty}"><option value="">- 请选择 -</option></select></td>
+													<tr>
+													</tr>
+														<th>备注：</th>
+														<td colspan="5"><textarea name="mem" data-bind="value: frm.mem"></textarea></td>
+													</tr>
+												</tbody>
+											</table>
+										</fieldset>
+										<fieldset>
+											<legend>产品信息</legend>
+											<table class="table tbl table-hover table-bordered" id="tblcontract">
+												<thead>
+													<tr>
+														<th>产品名称</th>
+														<th>产品编码</th>
+														<th>适用范围</th>
+														<th>单位</th>
+														<th>数量</th>
+														<th>标准单价</th>
+														<th>标准月总价</th>
+														<th>单价</th>
+														<th>月收入</th>
+														<th>合同总价</th>
+														<th>折扣率</th>
+														<th>操作</th>
+													</tr>
+												</thead>
+												<tbody data-bind="foreach: frm.items">
+													<tr>
+														<td><input type="text" name="productName" data-bind="autocomplete: {source: function(request, response){
+																getProductNameData(request, response)
+															}, select: $root.event.autocompleteselect.bind($data)}, value: productName, valueUpdate:&#39;blur&#39;" class="ui-autocomplete-input" autocomplete="off">
+
+														</td>
+														<td data-bind="text: productCode"></td>
+														<td data-bind="text: resourceType"></td>
+														<td><select class="unit" data-bind="options: unitlist, optionsValue: &#39;unit&#39;, optionsText: &#39;unit&#39;, value:
+        unit"></select>
+															<select class="unit" style="display: none;" data-bind="options: pricelist, optionsValue: &#39;unit&#39;, optionsText:
+        &#39;unit&#39;, value: unit"></select>
+														</td>
+														<td><input type="text" class="int" data-bind="attr: {name: &#39;qty&#39; + $index()}, value: qty" name="qty0"></td>
+														<td data-bind="text: price">0</td>
+														<td data-bind="text: contractPrice">0</td>
+														<td><input type="text" class="float" data-bind="attr: {name: &#39;factPrice&#39; + $index()}, value: factPrice" name="factPrice0"></td>
+														<td data-bind="text: mincome">0</td>
+														<td data-bind="text: contractFactPrice">0</td>
+														<td>
+															<div class="input-group input-append">
+																<input type="text" readonly="" class="float" data-bind="value: discountRate"> <span class="add-on input-group-addon">%</span>
+															</div>
+														</td>
+														<td data-bind="if: !$root.tempfrm.isItemsMin()"></td>
+													</tr>
+												</tbody>
+												<tfoot>
+													<tr>
+														<th colspan="4">小计</th>
+
+														<td></td>
+														<td></td>
+														<td data-bind="text: frm.totalAmountMonth"></td>
+														<td></td>
+														<td data-bind="text: frm.amountMonth"></td>
+														<td data-bind="text: frm.totalAmount"></td>
+														<td><div class="input-group input-append">
+																<input type="text" readonly="" class="float" data-bind="value: frm.discountRate"> <span class="add-on input-group-addon">%</span>
+															</div></td>
+														<td data-bind="if: !$root.tempfrm.isItemsMax()"><a data-bind="click: $root.event.additems" class="btnadd
+        btn"><div style="width: 49px;">
+																	<i class="icon-white icon-plus"></i> 新增
+																</div></a></td>
+													</tr>
+												</tfoot>
+											</table>
+
+										</fieldset>
+										<div class="form-actions">
+											<!-- <a id="saveBtn" class="btnh btn-lg btn-h" data-bind="click: event.save"><i class="icon-ok icon-white"></i>
+        保存</a> -->
+											<!-- <a href="javascript:history.go(-1);" class="btnh btn-lg btn-h"><i class="icon-share icon-white"></i> 返回</a>
+        -->
+											<a class="btnh btn-lg btn-h" data-bind="click: event.save"><i class="icon-ok icon-white"></i>生成工单</a> <a class="btnh btn-lg btn-h" href="javascript: window.location.href=&#39;contractNewList.jsp&#39;;">
+												<i class="icon-share icon-white"></i>返回
+											</a>
+										</div>
+									</form>
+								</div>
+							</div>
+							<div class="tab-pane" id="tab2">
+								<!-- 工单（基础） -->
+
+<style>
+.order-container {
+	padding: 20px;
+}
+
+.order-container fieldset {
+	margin-bottom: 20px;
+}
+</style>
+<div class="order-container" id="baseOrder" style="display: none;">
+	<div class="block-content">
+		<form id="details" class="form-inline">
+			<fieldset class="order-section">
+				<legend>基本信息</legend>
+				<table class="tbl-6 nowrap">
+					<tbody>
+						<tr>
+							<th>申请日期：</th>
+							<td data-bind="text:baseInfo.applyTime"></td>
+							<th>销售人员：</th>
+							<td data-bind="text:baseInfo.employeeName"></td>
+							<th>部门：</th>
+							<td data-bind="text:baseInfo.departmentName"></td>
+						</tr>
+						<tr>
+							<th>客户名称：</th>
+							<td data-bind="text:baseInfo.customerName"></td>
+							<th>客户编号：</th>
+							<td data-bind="text:baseInfo.customerNo"></td>
+							<th>工单编号：</th>
+							<td data-bind="text:baseInfo.orderNo"></td>
+						</tr>
+						<tr>
+							<th>客户技术联系人：</th>
+							<td data-bind="text:baseInfo.operateName"></td>
+							<th>客户技术联系人电话：</th>
+							<td data-bind="text:baseInfo.operatePhone"></td>
+							<th>开通日期：</th>
+							<td data-bind="text:baseInfo.contractTime"></td>
+						</tr>
+						<tr>
+							<th>工单类型：</th>
+							<td data-bind="text:baseInfo.orderType">开通</td>
+							<th>业务类型：</th>
+							<td data-bind="text:baseInfo.businessType">基础服务</td>
+							<th>是否转正工单：</th>
+							<td data-bind="text:baseInfo.isRegular">否</td>
+						</tr>
+					</tbody>
+				</table>
+			</fieldset>
+			<fieldset class="order-section">
+				<legend>明细信息</legend>
+				<table class="table tbl table-hover table-bordered">
+					<thead>
+						<tr>
+							<th>产品名称</th>
+							<th>产品编码</th>
+							<th>适用范围</th>
+							<th>单位</th>
+							<th>数量</th>
+							<th>关联端口/VLAN</th>
+						</tr>
+					</thead>
+					<tbody data-bind="foreach: messageArry"></tbody>
+				</table>
+				<table class="nowrap" style="width: 80%;">
+					<tbody>
+						<tr>
+							<th style="width: 6%;text-align:right;">备注：</th>
+								<td colspan="7">
+									<textarea id="memo" name="memo" data-bind="value:message.note"></textarea>
+								</td>
+							
+						</tr>
+					</tbody>
+				</table>
+			</fieldset>
+		
+				<fieldset class="order-section">
+					<legend>技术实施细节信息<span style="color:red;">(新增端口时填写)</span></legend>
+						<table class="tbl-6 nowrap">
+							<tbody>
+								<tr>
+									<th>是否需要端口限速：</th>
+									<td>是</td>
+									<th>端口类型：</th>
+									<td><select name="port" data-bind="options: portSelects,
+			        optionsValue:&#39;item_code&#39;, optionsText: &#39;description&#39;, value: message.port, optionsCaption: &#39;- 请选择 -&#39;"><option value="">- 请选择 -</option><option value="1">千兆电口</option><option value="2">千兆光口</option><option value="3">万兆光口</option><option value="5">百兆电口</option><option value="6">千兆光电复用口</option><option value="7">万兆光电复用口</option><option value="8">40G专用端口</option></select></td>
+									<th>上联线缆需求：</th>
+									<td><select name="require" data-bind="options: requireSelects,
+			        optionsValue:&#39;item_code&#39;, optionsText: &#39;description&#39;, value: message.require, optionsCaption: &#39;- 请选择 -&#39;"><option value="">- 请选择 -</option><option value="1">无</option><option value="2">千兆电口线</option><option value="3">多模光纤</option><option value="4">单模光纤</option><option value="5">百兆电口线</option></select></td>
+								</tr>
+								<tr>
+									<th>客户上联要求：</th>
+										<td>
+											<select name="clientRequire" data-bind="options: clientRequireSelects,
+			        optionsValue:&#39;item_code&#39;, optionsText: &#39;description&#39;, value: message.clientRequire, optionsCaption: &#39;- 请选择 -&#39;"><option value="">- 请选择 -</option><option value="1">无</option><option value="2">二层模式</option><option value="3">二层（静态路由模式）</option><option value="4">双上联（需8个单独互联地址）BGP模式</option><option value="5">双上联（需8个单独互联地址）静态路由模式</option></select>
+			        					</td>
+									<th>超流量限速：</th>
+									<td><input id="overLimit" name="overLimit" type="number" data-bind="value:message.overLimit"></td>
+								</tr>
+							</tbody>
+						</table>
+				</fieldset>
+			
+			<div class="form-actions">
+				<a class="btnh btn-lg btn-h" data-bind="click: saveContractAndOrder"><i class="icon-ok icon-white"></i>保存</a>
+				<a class="btnh btn-lg btn-h" href="javascript:$(&#39;#tabOrder0&#39;).click()"><i class="icon-share icon-white"></i>返回</a>
+			</div>
+		</form>
+	</div>
+</div>
+<div id="dialog" class="modal hide" style="width: 70%;left: 30%;top: 5%;">
+	<div class="modal-header">
+		<button class="close" onclick="_close(&#39;#dialog&#39;)" type="button">×</button>
+		<h3>关联原端口/原VLAN</h3>
+	</div>
+	
+<form method="post" class="form-inline" style="padding: 15px;">
+    <table class="tbl-6 nowrap" id="baseDialog">
+        	<tbody>
+        		<tr>
+        			<th>区域名称：</th>
+        			<td>
+        				<input name="zoneName" data-bind="autocomplete: {source: function(req,res){
+        res($.ui.autocomplete.filter($root.zoneArray,req.term));}, select: $root.event.selectZone.bind($data)}, value: search.zoneName, valueUpdate:&#39;keyup&#39;" type="text" class="ui-autocomplete-input" autocomplete="off">
+        			</td>
+        			<th>交换机编号：</th>
+        			<td>
+        				<input name="switchNo" data-bind="autocomplete: {source: function(req,res){
+        res($.ui.autocomplete.filter($root.switchNoArray,req.term));}, select: $root.event.selectSwitch.bind($data)}, value: search.switchNo, valueUpdate:&#39;blur&#39;" type="text" class="ui-autocomplete-input" autocomplete="off">
+        			</td>
+        		</tr>
+        		<tr>
+        			<th>端口号：</th>
+        			<td>
+        				<input name="port" data-bind="autocomplete: {source: function(req,res){
+        res($.ui.autocomplete.filter($root.portArray,req.term));}, select: $root.event.selectPort.bind($data)}, value: search.port, valueUpdate:&#39;blur&#39;" type="text" class="ui-autocomplete-input" autocomplete="off">
+        			</td>
+        			<th>VLAN号：</th>
+        			<td>
+        				<input name="vlan" data-bind="autocomplete: {source: function(req,res){
+        res($.ui.autocomplete.filter($root.vlanArray,req.term));}, select: $root.event.selectVlan.bind($data)}, value: search.vlan, valueUpdate:&#39;blur&#39;" type="text" class="ui-autocomplete-input" autocomplete="off">
+        			</td>
+        		</tr>
+        		<tr>
+        			<th>IP：</th>
+        			<td>
+        				<input data-bind="autocomplete: {source: function(req,res){
+        res($.ui.autocomplete.filter($root.ipArray,req.term));}}, value: search.ip, valueUpdate:&#39;blur&#39;" type="text" class="ui-autocomplete-input" autocomplete="off">
+        			</td>
+        			<td>
+        				<button data-bind="click: event.searchFn" class="btnh btn-h"><i class="icon-search icon-white"></i> 检索</button>
+					</td>
+        		</tr>
+        	</tbody>
+        </table>
+        <div id="baseDataTables_wrapper" class="dataTables_wrapper form-inline" role="grid"><div class="DTTT btn-group"><a class="btn DTTT_button_text" id="ToolTables_baseDataTables_0" tabindex="0" aria-controls="baseDataTables"><span>确定</span></a></div><table style="margin-top: 15px; width: 100%;" class="table tbl table-hover nowrap dataTable table-striped table-bordered" id="baseDataTables" aria-describedby="baseDataTables_info">
+						<thead>
+							<tr role="row"><th class="sorting_disabled" role="columnheader" rowspan="1" colspan="1" style="width: 50px;"></th><th class="sorting_disabled" role="columnheader" rowspan="1" colspan="1" style="width: 50px;">序号</th><th class="sorting_disabled" role="columnheader" rowspan="1" colspan="1" style="width: 50px;">区域名称</th><th class="sorting_disabled" role="columnheader" rowspan="1" colspan="1" style="width: 50px;">交换机编号</th><th class="sorting_disabled" role="columnheader" rowspan="1" colspan="1" style="width: 50px;">端口</th><th class="sorting_disabled" role="columnheader" rowspan="1" colspan="1" style="width: 50px;">VLAN</th><th class="sorting_disabled" role="columnheader" rowspan="1" colspan="1" style="width: 50px;">IP</th><th class="sorting_disabled" role="columnheader" rowspan="1" colspan="1" style="width: 50px;">带宽</th><th class="sorting_disabled" role="columnheader" rowspan="1" colspan="1" style="width: 50px;">限速</th></tr>
+						</thead>
+					<tbody role="alert" aria-live="polite" aria-relevant="all"><tr class="odd"><td valign="top" colspan="9" class="dataTables_empty">没有数据</td></tr></tbody></table><div class="row-fluid"><div class="span6"><div class="dataTables_info" id="baseDataTables_info">没有数据</div></div><div class="span6"><div class="dataTables_paginate paging_bootstrap pagination"><ul><li class="first disabled"><a href="http://ht.home.capitalonline.net/jsp/contract/new.jsp#">首页</a></li><li class="prev  disabled"><a href="http://ht.home.capitalonline.net/jsp/contract/new.jsp#">前一页</a></li><li class="next  disabled"><a href="http://ht.home.capitalonline.net/jsp/contract/new.jsp#">后一页</a></li><li class="last  disabled"><a href="http://ht.home.capitalonline.net/jsp/contract/new.jsp#">末页</a></li></ul></div></div></div></div>
+</form>
+
+<script type="text/javascript">
+var dtcot;
+var baseOrderDialog = {
+		ids: [],
+		zoneArray: [], // 区域
+		switchNoArray: [], // 编号
+		portArray: [], // 端口
+		vlanArray: [], // vlan
+		ipArray: [], // ip
+		search: {
+			secondParty: ko.observable(''),
+			belongId: ko.observable(''),
+			zoneId: ko.observable(''),
+			zoneName: ko.observable(''),
+			switchNo: ko.observable(''),
+			switchId: ko.observable(''),
+			port: ko.observable(''),
+			portId: ko.observable(''),
+			vlan: ko.observable(''),
+			vlanId: ko.observable(''),
+			ip: ko.observable('')
+		},
+		event: {
+			getPort ({belongId = '', customerNo = '', zoneName = '', switchNo = '', portInfo = '', vlanNo = '', ip = ''}) {
+				spinner.spin($("#baseDataTables").get(0));
+				http.post(s_ucenterservice + '/workOrderInterface/getBasePort',{belongId: baseOrderDialog.search.belongId(), currUserId: $.cookie('current_user_id'), customerNo, zoneName: zoneName, switchNo, portInfo, vlanNo, ip}).then((r)=>{
+					dtcot.fnClearTable();
+					dtcot.fnAddData(r.aaData,true);
+					spinner.spin();
+				});
+			},
+			searchFn () {
+				let params = {
+					customerNo: baseOrderView.baseInfo.customerNo(),
+					zoneName: baseOrderDialog.search.zoneName(),
+					switchNo: baseOrderDialog.search.switchNo(),
+					portInfo: baseOrderDialog.search.port(),
+					vlanNo: baseOrderDialog.search.vlan(),
+					ip: baseOrderDialog.search.ip(),
+					belongId: baseOrderDialog.search.belongId()
+				}
+				if (!baseOrderView.currentNode.proSubType) return;
+				baseOrderDialog.event.getPort(params);
+			},
+			selectZone (elm, ui) {
+				this.search.zoneId(ui.item.zoneId);
+				this.search.zoneName(ui.item.zoneName);
+				
+				/* 交换机 */
+				getSwitchNoFn({belongId: baseOrderDialog.search.belongId(),zoneId: this.search.zoneId()}).then((ret)=>{
+					this.switchNoArray = ret;
+				});
+				/* 端口号 */
+				getVlanFn({belongId: baseOrderDialog.search.belongId(),zoneId: this.search.zoneId(), switchId: this.search.switchId(), portId: this.search.portId()}).then(ret=>{
+					this.vlanArray = ret;
+				});
+				/* Ip */
+				getIpFn({belongId: baseOrderDialog.search.belongId(),vlanId: this.search.vlanId(), zoneId: this.search.zoneId(), switchId: this.search.switchId(), portId: this.search.portId()}).then(ret=>{
+					this.ipArray = ret;
+				});
+			},
+			selectSwitch (elm, ui) {
+				this.search.switchId(ui.item.switchId);
+				this.search.switchNo(ui.item.switchNo);
+				/* 端口号 */
+				getVlanFn({belongId: baseOrderDialog.search.belongId(),zoneId: this.search.zoneId(), switchId: this.search.switchId(), portId: this.search.portId()}).then(ret=>{
+					this.vlanArray = ret;
+				});
+				/* Ip */
+				getIpFn({belongId: baseOrderDialog.search.belongId(),vlanId: this.search.vlanId(), zoneId: this.search.zoneId(), switchId: this.search.switchId(), portId: this.search.portId()}).then(ret=>{
+					this.ipArray = ret;
+				});
+			},
+			selectPort(elm, ui) {
+				this.search.port(ui.item.portInfo);
+				this.search.portId(ui.item.portId);
+				getVlanFn({belongId: baseOrderDialog.search.belongId(),zoneId: this.search.zoneId(), switchId: this.search.switchId(), portId: this.search.portId()}).then(ret=>{
+					this.vlanArray = ret;
+				});
+			},
+			selectVlan (elm, ui) {
+				
+				this.search.vlanId(ui.item.vlanId);
+				this.search.vlan(ui.item.vlanNo);
+				
+				getIpFn({belongId: baseOrderDialog.search.belongId(),vlanId: this.search.vlanId(), zoneId: this.search.zoneId(), switchId: this.search.switchId(), portId: this.search.portId()}).then(ret=>{
+					this.ipArray = ret;
+				});
+			}
+		}
+	}
+/* 监听区域名称的变化 */
+baseOrderDialog.search.zoneName.subscribe((val)=>{
+	if (val) return;
+	getSwitchNoFn({belongId: baseOrderDialog.search.belongId(),zoneId:val}).then((ret)=>{
+		baseOrderDialog.switchNoArray = ret;
+	});
+	getIpFn({belongId: baseOrderDialog.search.belongId(),zoneId: '', switchNo: baseOrderDialog.search.switchId(), portId: baseOrderDialog.search.portId(), vlanId: val}).then(ret=>{
+		cloudOrderDialog.ipArray = ret;
+	});
+});
+/* 监听交换机的变化 */
+baseOrderDialog.search.switchNo.subscribe((val)=>{
+	if (val) return;
+	getPortFn({belongId: baseOrderDialog.search.belongId(),zoneId: baseOrderDialog.search.zoneId(), switchId: val}).then(ret=>{
+		baseOrderDialog.portArray = ret;
+	});
+});
+/* 监听端口号的变化 */
+baseOrderDialog.search.port.subscribe((val)=>{
+	if (val) return;
+	getVlanFn({belongId: baseOrderDialog.search.belongId(),zoneId: baseOrderDialog.search.zoneId(), switchId: baseOrderDialog.search.switchId(), portId: val}).then(ret=>{
+		baseOrderDialog.vlanArray = ret;
+	});
+});
+/* 监听vlan变化 */
+baseOrderDialog.search.vlan.subscribe((val)=>{
+	if (val) return;
+	getIpFn({belongId: baseOrderDialog.search.belongId(),zoneId: baseOrderDialog.search.zoneId(), switchNo: baseOrderDialog.search.switchId(), portId: baseOrderDialog.search.portId(), vlanId: val}).then(ret=>{
+		baseOrderDialog.ipArray = ret;
+	});
+});
+
+ko.applyBindings(baseOrderDialog, document.getElementById('baseDialog'));
+
+$(document).ready(function(){
+	$.fn.dataTable.TableTools.buttons.submit = $.extend(true, {}, $.fn.dataTable.TableTools.buttonBase, {
+		sButtonText: '确定',
+		fnClick: function(button,conf){
+			var checkeds = $('tbody',dtcot).find(':checkbox:checked');
+			if(checkeds.length < 1) {
+				alert('请选择端口');
+				return false;
+			}
+			let ids = ''
+			let ports = ''
+			$.each(checkeds, function(i,n) {
+				ids += ',' + $(this).val()
+				ports += ',' + $(this).attr('data')
+			})
+			
+			let temp = $.extend({}, baseOrderView.currentNode);
+			temp.isUseOldVlanPort = '是';
+			temp.basePortIds = ids.substr(1);
+			temp.basePortDetail = ports.substr(1);
+			temp.isRelationPortOrVlan = 1;
+			temp.isUseOldVlanPort = '是';
+			console.log(temp)
+			baseOrderView.messageArry.replace(baseOrderView.currentNode, temp);
+			$('#dialog').hide();
+			$('.modal-backdrop').remove();
+			$('body').css('overflow', 'scroll');
+		}
+	});
+	dtcot = $('#baseDataTables').DataTable({
+		sDom: "Tt<'row-fluid'<'span6'i><'span6'p>>",
+		bSort : false,
+		oTableTools: {aButtons:[ {sExtends:'submit'}]},
+		aoColumns : [
+			{
+				mData : function(item){
+					let str = '<input type="checkbox" data="' + item.portInfo + '" value="' + item.id + '"';
+					if (baseOrderDialog.ids.length > 0 && baseOrderDialog.ids.includes(item.id.toString())) {
+						str += 'checked />';
+					} else {
+						str += ' />';
+					}
+					return str;
+					// return '<input type="checkbox" data="' + item.portInfo + '" value="' + item.id + '" />';
+				},
+				sWidth:50
+			},
+			{
+				mData : function(item){
+					return cellRenderer(item, "zoneName");
+				},
+				sWidth:50
+			},
+			{
+				mData : function(item){
+					return cellRenderer(item, "zoneName");
+				},
+				sWidth:50
+			},
+			{
+				mData : function(item){
+					return cellRenderer(item, "switchNo");
+				},
+				sWidth:50
+			},
+			{
+				mData : function(item){
+					return cellRenderer(item, "portInfo");
+				},
+				sWidth:50
+			},
+			{
+				mData : function(item){
+					return cellRenderer(item, "vlanNo");
+				},
+				sWidth:50
+			},
+			{
+				mData : function(item){
+					return cellRenderer(item, "ip");
+				},
+				sWidth:50
+			},
+			{
+				mData : function(item){
+					return cellRenderer(item, "bandwidth");
+				},
+				sWidth:50
+			},
+			{
+				mData : function(item){
+					return cellRenderer(item, "limitRate");
+				},
+				sWidth:50
+			}
+		],
+		fnRowCallback : function (nRow, aData, iDisplayIndex, iDisplayIndexFull) {
+			$("td:eq(1)", nRow).html(iDisplayIndexFull + 1); //设置序号位于第一列，并顺次加一
+			return nRow;
+		}
+	});
+	/* 获取弹窗列表数据 */
+	/* http.get(s_ucenterservice + '/dataDictionary/getFromRedis/','code=portType').then((r)=>{
+		dtcot.fnClearTable();
+		dtcot.fnAddData(r.DataDictionaryList,true);
+	}); */
+});
+</script>   
+
+</div>
+<div id="dialogIP" class="modal hide" style="width: 70%;left: 30%;top: 5%;">
+	<div class="modal-header">
+		<button class="close" onclick="_close(&#39;#dialogIP&#39;)" type="button">×</button>
+		<h3>关联原端口/原VLAN</h3>
+	</div>
+	
+<form method="post" class="form-inline" style="padding: 15px;">
+    <table class="tbl-6 nowrap" id="baseIPDialog">
+        	<tbody>
+        		<tr>
+        			<th>区域名称：</th>
+        			<td>
+        				<input name="zoneName" data-bind="autocomplete: {source: function(req,res){
+        res($.ui.autocomplete.filter($root.zoneArray,req.term));}, select: $root.event.selectZone.bind($data)}, value: search.zoneName, valueUpdate:&#39;keyup&#39;" type="text" class="ui-autocomplete-input" autocomplete="off">
+        			</td>
+        			<th>交换机编号：</th>
+        			<td>
+        				<input name="switchNo" data-bind="autocomplete: {source: function(req,res){
+        res($.ui.autocomplete.filter($root.switchNoArray,req.term));}, select: $root.event.selectSwitch.bind($data)}, value: search.switchNo, valueUpdate:&#39;blur&#39;" type="text" class="ui-autocomplete-input" autocomplete="off">
+        			</td>
+        		</tr>
+        		<tr>
+        			<th>端口号：</th>
+        			<td>
+        				<input name="port" data-bind="autocomplete: {source: function(req,res){
+        res($.ui.autocomplete.filter($root.portArray,req.term));}, select: $root.event.selectPort.bind($data)}, value: search.port, valueUpdate:&#39;blur&#39;" type="text" class="ui-autocomplete-input" autocomplete="off">
+        			</td>
+        			<th>VLAN号：</th>
+        			<td>
+        				<input name="vlan" data-bind="autocomplete: {source: function(req,res){
+        res($.ui.autocomplete.filter($root.vlanArray,req.term));}, select: $root.event.selectVlan.bind($data)}, value: search.vlan, valueUpdate:&#39;blur&#39;" type="text" class="ui-autocomplete-input" autocomplete="off">
+        			</td>
+        		</tr>
+        		<tr>
+        			<th>IP：</th>
+        			<td>
+        				<input data-bind="autocomplete: {source: function(req,res){
+        res($.ui.autocomplete.filter($root.ipArray,req.term));}}, value: search.ip, valueUpdate:&#39;blur&#39;" type="text" class="ui-autocomplete-input" autocomplete="off">
+        			</td>
+        			<th>VLAN性质：</th>
+        			<td>
+        				<select data-bind="value: search.isShared">
+        					<option value="">请选择</option>
+        					<option value="0">独享VLAN</option>
+        					<option value="1">共享VLAN</option>
+        				</select>
+        			</td>
+        			<td>
+        				<button data-bind="click: event.searchFn" class="btnh btn-h"><i class="icon-search icon-white"></i> 检索</button>
+					</td>
+        		</tr>
+        	</tbody>
+        </table>
+        <div id="baseIPDataTables_wrapper" class="dataTables_wrapper form-inline" role="grid"><div class="DTTT btn-group"></div><table style="margin-top: 15px; width: 100%;" class="table tbl table-hover nowrap dataTable table-striped table-bordered" id="baseIPDataTables" aria-describedby="baseIPDataTables_info">
+						<thead>
+							<tr role="row"><th class="sorting_disabled" role="columnheader" rowspan="1" colspan="1" style="width: 50px;"></th><th class="sorting_disabled" role="columnheader" rowspan="1" colspan="1" style="width: 50px;">序号</th><th class="sorting_disabled" role="columnheader" rowspan="1" colspan="1" style="width: 50px;">区域名称</th><th class="sorting_disabled" role="columnheader" rowspan="1" colspan="1" style="width: 50px;">交换机编号</th><th class="sorting_disabled" role="columnheader" rowspan="1" colspan="1" style="width: 50px;">端口</th><th class="sorting_disabled" role="columnheader" rowspan="1" colspan="1" style="width: 50px;">VLAN</th><th class="sorting_disabled" role="columnheader" rowspan="1" colspan="1" style="width: 50px;">VLAN性质</th><th class="sorting_disabled" role="columnheader" rowspan="1" colspan="1" style="width: 50px;">IP</th><th class="sorting_disabled" role="columnheader" rowspan="1" colspan="1" style="width: 50px;">带宽</th><th class="sorting_disabled" role="columnheader" rowspan="1" colspan="1" style="width: 50px;">限速</th></tr>
+						</thead>
+					<tbody role="alert" aria-live="polite" aria-relevant="all"><tr class="odd"><td valign="top" colspan="10" class="dataTables_empty">没有数据</td></tr></tbody></table><div class="row-fluid"><div class="span6"><div class="dataTables_info" id="baseIPDataTables_info">没有数据</div></div><div class="span6"><div class="dataTables_paginate paging_bootstrap pagination"><ul><li class="first disabled"><a href="http://ht.home.capitalonline.net/jsp/contract/new.jsp#">首页</a></li><li class="prev  disabled"><a href="http://ht.home.capitalonline.net/jsp/contract/new.jsp#">前一页</a></li><li class="next  disabled"><a href="http://ht.home.capitalonline.net/jsp/contract/new.jsp#">后一页</a></li><li class="last  disabled"><a href="http://ht.home.capitalonline.net/jsp/contract/new.jsp#">末页</a></li></ul></div></div></div></div>
+</form>
+
+<script type="text/javascript">
+function selectBaseData(id, no) {
+	let temp = $.extend({}, baseOrderView.currentNode);
+	
+	temp.baseVlanIds = id;
+	temp.isUseOldVlanPort = '是';
+	temp.baseVlanDetail = no;
+	temp.isRelationPortOrVlan = 1;
+	temp.isUseOldVlanPort = '是';
+
+	baseOrderView.messageArry.replace(baseOrderView.currentNode, temp);
+	$('#dialogIP').hide();
+	$('.modal-backdrop').remove();
+	$('body').css('overflow', 'scroll');
+}
+var dtcotIP;
+var baseIPOrderDialog = {
+		zoneArray: [], // 区域
+		switchNoArray: [], // 编号
+		portArray: [], // 端口
+		vlanArray: [], // vlan
+		ipArray: [], // ip
+		search: {
+			secondParty: ko.observable(''),
+			belongId: ko.observable(''),
+			zoneId: ko.observable(''),
+			zoneName: ko.observable(''),
+			switchNo: ko.observable(''),
+			switchId: ko.observable(''),
+			port: ko.observable(''),
+			portId: ko.observable(''),
+			vlan: ko.observable(''),
+			vlanId: ko.observable(''),
+			ip: ko.observable(''),
+			isShared: ko.observable(''),
+		},
+		event: {
+			getVlan ({belongId = '', customerNo = '', zoneName = '', switchNo = '', portInfo = '', vlanNo = '', ip = ''}) {
+				http.post(s_ucenterservice + '/workOrderInterface/getBaseVlanList',{belongId, currUserId: $.cookie('current_user_id'), customerNo, zoneName: zoneName, switchNo, portInfo, vlanNo, ip}).then((r)=>{
+					dtcotIP.fnClearTable();
+					dtcotIP.fnAddData(r.aaData,true);
+				});
+			},
+			searchFn () {
+				let params = {
+					customerNo: baseOrderView.baseInfo.customerNo(),
+					zoneName: baseIPOrderDialog.search.zoneName(),
+					switchNo: baseIPOrderDialog.search.switchNo(),
+					portInfo: baseIPOrderDialog.search.port(),
+					vlanNo: baseIPOrderDialog.search.vlan(),
+					ip: baseIPOrderDialog.search.ip(),
+					belongId: baseIPOrderDialog.search.belongId(),
+					isShared: baseIPOrderDialog.search.isShared()
+				}
+				if (!baseOrderView.currentNode.proSubType) return;
+				baseIPOrderDialog.event.getVlan(params);
+			},
+			selectZone (elm, ui) {
+				this.search.zoneId(ui.item.zoneId);
+				this.search.zoneName(ui.item.zoneName);
+				
+				/* 交换机 */
+				getSwitchNoFn({belongId: baseIPOrderDialog.search.belongId(),zoneId: this.search.zoneId()}).then((ret)=>{
+					this.switchNoArray = ret;
+				});
+				/* 端口号 */
+				getVlanFn({belongId: baseIPOrderDialog.search.belongId(),zoneId: this.search.zoneId(), switchId: this.search.switchId(), portId: this.search.portId()}).then(ret=>{
+					this.vlanArray = ret;
+				});
+				/* Ip */
+				getIpFn({belongId: baseIPOrderDialog.search.belongId(),vlanId: this.search.vlanId(), zoneId: this.search.zoneId(), switchId: this.search.switchId(), portId: this.search.portId()}).then(ret=>{
+					this.ipArray = ret;
+				});
+			},
+			selectSwitch (elm, ui) {
+				this.search.switchId(ui.item.switchId);
+				this.search.switchNo(ui.item.switchNo);
+				/* 端口号 */
+				getVlanFn({belongId: baseIPOrderDialog.search.belongId(),zoneId: this.search.zoneId(), switchId: this.search.switchId(), portId: this.search.portId()}).then(ret=>{
+					this.vlanArray = ret;
+				});
+				/* Ip */
+				getIpFn({belongId: baseIPOrderDialog.search.belongId(),vlanId: this.search.vlanId(), zoneId: this.search.zoneId(), switchId: this.search.switchId(), portId: this.search.portId()}).then(ret=>{
+					this.ipArray = ret;
+				});
+			},
+			selectPort(elm, ui) {
+				this.search.port(ui.item.portInfo);
+				this.search.portId(ui.item.portId);
+				getVlanFn({belongId: baseIPOrderDialog.search.belongId(),zoneId: this.search.zoneId(), switchId: this.search.switchId(), portId: this.search.portId()}).then(ret=>{
+					this.vlanArray = ret;
+				});
+			},
+			selectVlan (elm, ui) {
+				
+				this.search.vlanId(ui.item.vlanId);
+				this.search.vlan(ui.item.vlanNo);
+				
+				getIpFn({belongId: baseIPOrderDialog.search.belongId(),vlanId: this.search.vlanId(), zoneId: this.search.zoneId(), switchId: this.search.switchId(), portId: this.search.portId()}).then(ret=>{
+					this.ipArray = ret;
+				});
+			}
+		}
+	}
+/* 监听区域名称的变化 */
+baseIPOrderDialog.search.zoneName.subscribe((val)=>{
+	if (val) return;
+	getSwitchNoFn({belongId: baseIPOrderDialog.search.belongId(),zoneId:val}).then((ret)=>{
+		baseIPOrderDialog.switchNoArray = ret;
+	});
+	getIpFn({belongId: baseIPOrderDialog.search.belongId(),zoneId: '', switchNo: baseIPOrderDialog.search.switchId(), portId: baseIPOrderDialog.search.portId(), vlanId: val}).then(ret=>{
+		cloudOrderDialog.ipArray = ret;
+	});
+});
+/* 监听交换机的变化 */
+baseIPOrderDialog.search.switchNo.subscribe((val)=>{
+	if (val) return;
+	getPortFn({belongId: baseIPOrderDialog.search.belongId(),zoneId: baseIPOrderDialog.search.zoneId(), switchId: val}).then(ret=>{
+		baseIPOrderDialog.portArray = ret;
+	});
+});
+/* 监听端口号的变化 */
+baseIPOrderDialog.search.port.subscribe((val)=>{
+	if (val) return;
+	getVlanFn({belongId: baseIPOrderDialog.search.belongId(),zoneId: baseIPOrderDialog.search.zoneId(), switchId: baseIPOrderDialog.search.switchId(), portId: val}).then(ret=>{
+		baseIPOrderDialog.vlanArray = ret;
+	});
+});
+/* 监听vlan变化 */
+baseIPOrderDialog.search.vlan.subscribe((val)=>{
+	if (val) return;
+	getIpFn({belongId: baseIPOrderDialog.search.belongId(),zoneId: baseIPOrderDialog.search.zoneId(), switchNo: baseIPOrderDialog.search.switchId(), portId: baseIPOrderDialog.search.portId(), vlanId: val}).then(ret=>{
+		baseIPOrderDialog.ipArray = ret;
+	});
+});
+
+ko.applyBindings(baseIPOrderDialog, document.getElementById('baseIPDialog'));
+
+$(document).ready(function(){
+	dtcotIP = $('#baseIPDataTables').DataTable({
+		sDom: "Tt<'row-fluid'<'span6'i><'span6'p>>",
+		bSort : false,
+		oTableTools : {aButtons:[]},
+		aoColumns : [
+			{
+				mData : function(item){
+					return '<a href="javascript:selectBaseData(' + item['productVlanId'] + ',\'' + item['vlanNo'] + '\');">选择</a>';
+				},
+				sWidth:50
+			},
+			{
+				mData : function(item){
+					return cellRenderer(item, "zoneName");
+				},
+				sWidth:50
+			},
+			{
+				mData : function(item){
+					return cellRenderer(item, "zoneName");
+				},
+				sWidth:50
+			},
+			{
+				mData : function(item){
+					return cellRenderer(item, "switchNo");
+				},
+				sWidth:50
+			},
+			{
+				mData : function(item){
+					return cellRenderer(item, "portInfo");
+				},
+				sWidth:50
+			},
+			{
+				mData : function(item){
+					return cellRenderer(item, "vlanNo");
+				},
+				sWidth:50
+			},
+			{
+				mData : function(item){
+					return cellRenderer(item, "isShared");
+				},
+				sWidth:50
+			},
+			{
+				mData : function(item){
+					return cellRenderer(item, "ip");
+				},
+				sWidth:50
+			},
+			{
+				mData : function(item){
+					return cellRenderer(item, "bandwidth");
+				},
+				sWidth:50
+			},
+			{
+				mData : function(item){
+					return cellRenderer(item, "limitRate");
+				},
+				sWidth:50
+			}
+		],
+		fnRowCallback : function (nRow, aData, iDisplayIndex, iDisplayIndexFull) {
+			$("td:eq(1)", nRow).html(iDisplayIndexFull + 1); //设置序号位于第一列，并顺次加一
+			return nRow;
+		}
+	});
+	/* 获取弹窗列表数据 */
+	/* http.get(s_ucenterservice + '/dataDictionary/getFromRedis/','code=portType').then((r)=>{
+		dtcotIP.fnClearTable();
+		dtcotIP.fnAddData(r.DataDictionaryList,true);
+	}); */
+});
+</script>   
+
+</div>
+<script>
+	/* $('#dialog').show(); */
+	/* 定义模型 */
+	var baseOrderView = {
+		currentNode: {},
+		requireSelects: ko.observableArray([]), // 线缆需求
+		portSelects: ko.observableArray([]), // 端口需求
+		clientRequireSelects: ko.observableArray([]), // 客户需求
+		messageArry: ko.observableArray([]), // 明细信息
+		message: {
+			isLimit: ko.observable(true),
+			port: ko.observable(),
+			require: ko.observable(),
+			clientRequire: ko.observable(),
+			overLimit: ko.observable(''),
+			note: ko.observable('')
+		},
+		relationChoose (node, e) {
+			let tmp = $.extend({}, node);
+			tmp.isRelationPortOrVlan = e.target.value;
+			baseOrderView.messageArry.replace(node, tmp);
+		},
+		choose (node, e) {
+			let tmp = $.extend({}, node);
+			if (e.target.value == '否') {
+				if (node.proSubType == '带宽类' || node.proSubType == 'VLAN类') {
+					tmp.basePortIds = '';
+					tmp.basePortDetail = '';
+				} else if (node.proSubType == 'IP类') {
+					tmp.baseVlanIds = '';
+					tmp.baseVlanDetail = '';
+				}
+			}
+			tmp.isUseOldVlanPort = e.target.value;
+			baseOrderView.messageArry.replace(node, tmp);
+		},
+		showDialog (node, e) {
+			baseOrderView.currentNode = node;
+			
+			if (node.proSubType.indexOf('VLAN') > -1 || node.proSubType.indexOf('带宽') > -1) {
+				$('#dialog').show();
+				$("body").append("<div class='modal-backdrop  in'></div>");
+				if (!!dm.frm.secondParty() && dm.frm.secondParty() != undefined) {
+					baseOrderDialog.search.belongId(parseInt(dm.frm.secondParty()) == 9 ? 2 : 1);
+					baseOrderDialog.search.secondParty(dm.frm.secondParty());
+				}
+				
+				/* 获取区域名称数据 */
+				getZoneNameFn({belongId: baseOrderDialog.search.belongId()}).then(ret=>{
+					baseOrderDialog.zoneArray = ret.baseZoneNames;
+				});
+
+				/* 页面加载初始化数据 获取下拉框的全部数据 */
+				getSwitchNoFn({belongId: baseOrderDialog.search.belongId()}).then(ret=>{
+					baseOrderDialog.switchNoArray = ret;
+				});
+				getPortFn({belongId: baseOrderDialog.search.belongId()}).then(ret=>{
+					baseOrderDialog.portArray = ret;
+				});
+				getVlanFn({belongId: baseOrderDialog.search.belongId()}).then(ret=>{
+					baseOrderDialog.vlanArray = ret;
+				});
+				getIpFn({belongId: baseOrderDialog.search.belongId()}).then(ret=>{
+					baseOrderDialog.ipArray = ret;
+				});
+				
+				let params = {
+						customerNo: baseOrderView.baseInfo.customerNo(),
+						zoneName: '',
+						switchNo: '',
+						portId: '',
+						vlanNo: '',
+						publicIp: ''
+					}
+				if (!!node.basePortIds) {
+					baseOrderDialog.ids = node.basePortIds.split(',')
+				} else {
+					baseOrderDialog.ids = []
+				}
+				baseOrderDialog.event.getPort(params);
+			} else if (node.proSubType.indexOf('IP') > -1) {
+				$('#dialogIP').show();
+				$("body").append("<div class='modal-backdrop  in'></div>");
+				
+				if (!!dm.frm.secondParty() && dm.frm.secondParty() != undefined) {
+					baseIPOrderDialog.search.belongId(parseInt(dm.frm.secondParty()) == 9 ? 2 : 1);
+					baseIPOrderDialog.search.secondParty(dm.frm.secondParty());
+				}
+				
+				/* 获取区域名称数据 */
+				getZoneNameFn({belongId: baseIPOrderDialog.search.belongId()}).then(ret=>{
+					baseIPOrderDialog.zoneArray = ret.baseZoneNames;
+				});
+
+				/* 页面加载初始化数据 获取下拉框的全部数据 */
+				getSwitchNoFn({belongId: baseIPOrderDialog.search.belongId()}).then(ret=>{
+					baseIPOrderDialog.switchNoArray = ret;
+				});
+				getPortFn({belongId: baseIPOrderDialog.search.belongId()}).then(ret=>{
+					baseIPOrderDialog.portArray = ret;
+				});
+				getVlanFn({belongId: baseIPOrderDialog.search.belongId()}).then(ret=>{
+					baseIPOrderDialog.vlanArray = ret;
+				});
+				getIpFn({belongId: baseIPOrderDialog.search.belongId()}).then(ret=>{
+					baseIPOrderDialog.ipArray = ret;
+				});
+				
+				let params = {
+						customerNo: baseOrderView.baseInfo.customerNo(),
+						zoneName: '',
+						switchNo: '',
+						portId: '',
+						vlanNo: '',
+						publicIp: ''
+					}
+				//baseIPOrderDialog.event.getVlan(params);
+			}
+		},
+		/* 提交保存 */
+		saveContractAndOrder () {
+			$details = $('#details');
+			$details.validate({
+		        rules:{
+					memo: {maxlength: 200}
+				}
+		    });
+			let contract = $.extend({}, ko.toJS(dm.frm)); // 合同信息
+			if (contract.items && contract.items.length < 1) return;
+			let newItems = [{productCode: '', validQty: 0}]
+			contract.items.forEach((item)=>{
+				if (item.productName.indexOf('超流量') > -1) {
+					$("input[name='overLimit']").rules("add", {required: true});
+				}
+				if (item.proSubType.indexOf('端口') > -1) {
+					$("select[name='port']").rules("add", {required: true});
+					$("select[name='clientRequire']").rules("add", {required: true});
+					$("select[name='require']").rules("add", {required: true});
+				}
+				/* 可能会有重复的产品 所以要重组数据 */
+				newItems.forEach(nitem => {
+					let exitCode = newItems.map(item => item.productCode)
+					if (item.productCode == nitem.productCode) {
+						nitem.validQty = parseInt(nitem.validQty) + parseInt(item.qty)
+					} else if (!exitCode.includes(item.productCode)){
+						item.validQty = item.qty
+						newItems.push(item)
+					}
+				})
+			});
+			newItems.shift()
+			
+			if(!$details.valid()) return;
+			let self = this;
+			let resOrder = {
+				orderType: '开通',
+				orderAttribute: '正式',
+				type: contract.type, // 1 基础 3 云 2，4 增值代购
+				customerId: contract.customerId, // 客户ID
+				isTurnFormal: '否', // 是否为转正工单
+				isRequirePortRateLimit: '是', // 是否需要端口限速
+				portType: self.message.port(), // 端口类型
+				topLineNeed:  self.message.require(), // 上联线缆需求
+				customerTopLine:  self.message.clientRequire(), // 客户上联要求
+				exceedLimit:  self.message.overLimit(), // 超流量限速
+				memo: self.message.note(), // 备注
+				
+			};
+			let msg = '';
+			
+			self.messageArry().forEach((item)=>{
+				item.site = item.resourceType;
+				item.ProductName = item.productName;
+				item.productNum = item.qty;
+				item.productUnit = item.unit;
+
+				for(var zz=0; zz<newItems.length; ++zz){
+					if(newItems[zz].productCode == item.productCode){
+						newItems[zz].validQty -= item.productNum;
+					}
+				}
+				
+			});
+			
+			for(var zz=0; zz<newItems.length; ++zz){
+	        	if(newItems[zz].validQty != 0){
+	        		alert("选中数据数量不符");
+					return;
+				}
+	        }
+			
+			if (!!msg) {
+				alert(msg);
+				return false;
+			}
+			let params = {contract, res_order: resOrder, res_order_items: self.messageArry(), status: 0};
+			
+			let resOrderItems = self.messageArry()
+			
+			let orderCode = resOrderItems.map(item => {
+	        	return item.productCode
+	        })
+	         /* 去重 */
+	        let uniqueOrder = Array.from(new Set(orderCode))
+	        
+	        let productCode = contract.items.map(item => {
+	        	return item.productCode
+	        })
+	        /* 去重 */
+	        let uniqueProduct = Array.from(new Set(productCode))
+	         
+	        if (uniqueOrder.length != uniqueProduct.length) {
+	        	alert('产品信息与工单信息不一致')
+				return
+	        }
+			console.log(params)
+			saveContractAndOrder(params).then(ret=>{
+				let result = JSON.parse(ret);
+				if (result.code === '200') {
+					alert('保存成功');
+					window.location.href = "contractNewList.jsp";
+				} else {
+					alert(result.msg);
+				}
+			});
+		}
+	};
+	getPortSelects('portType').then((r)=>{
+		baseOrderView.portSelects(r.DataDictionaryList);
+	});
+	getPortSelects('topLineNeed').then((r)=>{
+		baseOrderView.requireSelects(r.DataDictionaryList);
+	});
+	getPortSelects('customerTopLine').then((r)=>{
+		baseOrderView.clientRequireSelects(r.DataDictionaryList);
+	});
+	let baseInfo = {
+			applyTime: '', // 申请日期
+			employeeName: '', // 销售人员
+			departmentName: '', // 部门
+			customerName: '', // 客户名称
+			customerNo: '', // 客户编号
+			orderNo: '', // 工单编号
+			operateName: '', // 客户技术联系人
+			operatePhone: '', // 客户基数联系人电话
+			contractTime: '', // 开通日期
+			orderType: '开通', // 工单类型
+			businessType: '基础服务', // 业务类型
+			isRegular: '否', // 是否转正工单
+		}
+	baseOrderView.baseInfo = ko.mapping.fromJS(baseInfo);
+	
+	/* 绑定 */
+	ko.applyBindings(baseOrderView, document.getElementById('baseOrder'));
+	
+	/* 数据字典获取数据的方法 */
+	function getPortSelects (type) {
+		return http.get(s_ucenterservice + '/dataDictionary/getFromRedis/','code=' + type).then((r)=>{
+			return r;
+		});
+	};
+	/*  function filterID (id, arr, field) {
+		if (arr.length < 1) return -1;
+		let keys = [];
+		arr.forEach((item)=>{
+			keys.push(item[field]);
+		})
+		let value = keys.indexOf(id);
+		return value;
+	} */
+</script>
+								<!-- 工单（云） -->
+
+<style>
+.order-container {
+	padding: 20px;
+}
+
+.order-container fieldset {
+	margin-bottom: 20px;
+}
+.detailList th, .detailList td {
+	width:50px;
+}
+.detailList select, .detailList input {
+	width: 70%;
+}
+#cloudOrder .row-fluid {
+	min-width: 120%;
+}
+#cloudOrder .systemRequire {
+    font-size: 1em;
+    margin-right: 2px;
+    color: #cc0000;
+    vertical-align: middle;
+}
+</style>
+<div class="order-container" id="cloudOrder" style="display: none;">
+	<div class="block-content">
+		
+			<fieldset class="order-section">
+				<legend>基本信息</legend>
+				<table class="tbl-6 nowrap">
+					<tbody>
+						<tr>
+							<th>申请日期：</th>
+							<td data-bind="text:baseInfo.applyTime"></td>
+							<th>销售人员：</th>
+							<td data-bind="text:baseInfo.employeeName"></td>
+							<th>部门：</th>
+							<td data-bind="text:baseInfo.departmentName"></td>
+						</tr>
+						<tr>
+							<th>客户名称：</th>
+							<td data-bind="text:baseInfo.customerName"></td>
+							<th>客户编号：</th>
+							<td data-bind="text:baseInfo.customerNo"></td>
+							<th>工单编号：</th>
+							<td data-bind="text:baseInfo.orderNo"></td>
+						</tr>
+						<tr>
+							<th>客户技术联系人：</th>
+							<td data-bind="text:baseInfo.operateName"></td>
+							<th>客户技术联系人电话：</th>
+							<td data-bind="text:baseInfo.operatePhone"></td>
+							<th>开通日期：</th>
+							<td data-bind="text:baseInfo.contractTime"></td>
+						</tr>
+						<tr>
+							<th>工单类型：</th>
+							<td data-bind="text:baseInfo.orderType">开通</td>
+							<th>业务类型：</th>
+							<td data-bind="text:baseInfo.businessType">云服务</td>
+							<th>是否转正工单：</th>
+							<td data-bind="text:baseInfo.isRegular">否</td>
+						</tr>
+						<!-- <tr>
+							<th style="vertical-align: top;">备注：</th>
+							<td colspan="5"><textarea type="text" data-bind="value:message.memo"></textarea></td>
+						</tr> -->
+					</tbody>
+				</table>
+			</fieldset>
+			<form id="resOrderItems" class="form-inline">
+				<fieldset class="order-section">
+					<legend>明细信息</legend>
+					<table class="table tbl table-hover table-bordered detailList">
+						<thead>
+							<tr>
+								<th>产品名称</th>
+								<th>产品编码</th>
+								<th>适用范围</th>
+								<th>单位</th>
+								<th>数量</th>
+								<th>公网IP</th>
+								<th>私网IP</th>
+							</tr>
+						</thead>
+						<tbody data-bind="foreach: messageArry"></tbody>
+					</table>
+					<table class="nowrap" style="width: 80%;">
+						<tbody>
+							<tr>
+								<th style="width: 6%;text-align:right;">备注：</th>
+									<td colspan="7">
+										<textarea type="text" name="memo" data-bind="value:message.memo"></textarea>
+									</td>
+								
+							</tr>
+						</tbody>
+					</table>
+				</fieldset>
+				<fieldset class="order-section">
+					<legend>技术实施细节信息<span style="color:red;">(新增端口时填写)</span></legend>
+						<table class="tbl-6 nowrap">
+							<tbody>
+								<tr>
+									<th>是否需要端口限速：</th>
+									<td>是</td>
+									<th>端口类型：</th>
+									<td><select name="cloudPort" data-bind="options: portSelects,
+			        optionsValue:&#39;item_code&#39;, optionsText: &#39;description&#39;, value: message.port, optionsCaption: &#39;- 请选择 -&#39;"><option value="">- 请选择 -</option><option value="1">千兆电口</option><option value="2">千兆光口</option><option value="3">万兆光口</option><option value="5">百兆电口</option><option value="6">千兆光电复用口</option><option value="7">万兆光电复用口</option><option value="8">40G专用端口</option></select></td>
+									<th>上联线缆需求：</th>
+									<td><select name="cloudRequire" data-bind="options: requireSelects,
+			        optionsValue:&#39;item_code&#39;, optionsText: &#39;description&#39;, value: message.require, optionsCaption: &#39;- 请选择 -&#39;"><option value="">- 请选择 -</option><option value="1">无</option><option value="2">千兆电口线</option><option value="3">多模光纤</option><option value="4">单模光纤</option><option value="5">百兆电口线</option></select></td>
+								</tr>
+								<tr>
+									<th>客户上联要求：</th>
+										<td>
+											<select name="cloudClientRequire" data-bind="options: clientRequireSelects,
+			        optionsValue:&#39;item_code&#39;, optionsText: &#39;description&#39;, value: message.clientRequire, optionsCaption: &#39;- 请选择 -&#39;"><option value="">- 请选择 -</option><option value="1">无</option><option value="2">二层模式</option><option value="3">二层（静态路由模式）</option><option value="4">双上联（需8个单独互联地址）BGP模式</option><option value="5">双上联（需8个单独互联地址）静态路由模式</option></select>
+			        					</td>
+									<th>超流量限速：</th>
+									<td><input id="overLimit" name="overLimit" type="number" data-bind="value:message.overLimit"></td>
+								</tr>
+							</tbody>
+						</table>
+				</fieldset>
+			</form>
+			
+			<div class="form-actions">
+				<a class="btnh btn-lg btn-h" data-bind="click: saveContractAndOrder"><i class="icon-ok icon-white"></i>保存</a>
+				<a class="btnh btn-lg btn-h" href="javascript:$(&#39;#tabOrder0&#39;).click()"><i class="icon-share icon-white"></i>返回</a>
+			</div>
+		
+	</div>
+</div>
+<div id="cdialog" class="modal hide" style="width: 70%;left: 30%;top: 5%;">
+	<div class="modal-header">
+		<button class="close" onclick="_close(&#39;#cdialog&#39;)" type="button">×</button>
+		<h3>关联原VLAN</h3>
+	</div>
+	
+<form method="post" class="form-inline" style="padding: 15px;">
+    <table class="tbl-6 nowrap" id="cloudDialog">
+        	<tbody>
+        		<tr>
+        			<th>站点：</th>
+        			<td>
+        				<input name="siteName" data-bind="autocomplete: {source: function(req,res){
+        res($.ui.autocomplete.filter($root.siteArray,req.term));}}, value: search.site, valueUpdate:&#39;blur&#39;" type="text" class="ui-autocomplete-input" autocomplete="off">
+        			</td>
+        			<th>POD：</th>
+        			<td>
+        				<input name="podName" data-bind="autocomplete: {source: function(req,res){
+        res($.ui.autocomplete.filter($root.podArray,req.term));}}, value: search.pod, valueUpdate:&#39;blur&#39;" type="text" class="ui-autocomplete-input" autocomplete="off">
+        			</td>
+        		</tr>
+        		<tr>
+        			<th>VLAN号：</th>
+        			<td>
+        				<input name="vlan" data-bind="autocomplete: {source: function(req,res){
+        res($.ui.autocomplete.filter($root.vlanArray,req.term));}}, value: search.vlan, valueUpdate:&#39;blur&#39;" type="text" class="ui-autocomplete-input" autocomplete="off">
+        			</td>
+        			<th>公网IP：</th>
+        			<td>
+        				<input data-bind="autocomplete: {source: function(req,res){
+        res($.ui.autocomplete.filter($root.ipArray,req.term));}}, value: search.ip, valueUpdate:&#39;blur&#39;" type="text" class="ui-autocomplete-input" autocomplete="off">
+        			</td>
+        		</tr>
+        		<tr>
+        			<th></th>
+        			<td>
+        				<button data-bind="click: event.searchFn" class="btnh btn-h"><i class="icon-search icon-white"></i> 检索</button>
+					</td>
+        		</tr>
+        	</tbody>
+        </table>
+        <div id="cloudDataTables_wrapper" class="dataTables_wrapper form-inline" role="grid"><div class="DTTT btn-group"></div><table style="margin-top: 15px; width: 100%;" class="table tbl table-hover nowrap dataTable table-striped table-bordered" id="cloudDataTables" aria-describedby="cloudDataTables_info">
+						<thead>
+							<tr role="row"><th class="sorting_disabled" role="columnheader" rowspan="1" colspan="1" style="width: 50px;"></th><th class="sorting_disabled" role="columnheader" rowspan="1" colspan="1" style="width: 50px;">序号</th><th class="sorting_disabled" role="columnheader" rowspan="1" colspan="1" style="width: 50px;">站点</th><th class="sorting_disabled" role="columnheader" rowspan="1" colspan="1" style="width: 50px;">POD</th><th class="sorting_disabled" role="columnheader" rowspan="1" colspan="1" style="width: 50px;">VLAN</th><th class="sorting_disabled" role="columnheader" rowspan="1" colspan="1" style="width: 50px;">IP</th><th class="sorting_disabled" role="columnheader" rowspan="1" colspan="1" style="width: 50px;">带宽</th></tr>
+						</thead>
+					<tbody role="alert" aria-live="polite" aria-relevant="all"><tr class="odd"><td valign="top" colspan="7" class="dataTables_empty">没有数据</td></tr></tbody></table><div class="row-fluid"><div class="span6"><div class="dataTables_info" id="cloudDataTables_info">没有数据</div></div><div class="span6"><div class="dataTables_paginate paging_bootstrap pagination"><ul><li class="first disabled"><a href="http://ht.home.capitalonline.net/jsp/contract/new.jsp#">首页</a></li><li class="prev  disabled"><a href="http://ht.home.capitalonline.net/jsp/contract/new.jsp#">前一页</a></li><li class="next  disabled"><a href="http://ht.home.capitalonline.net/jsp/contract/new.jsp#">后一页</a></li><li class="last  disabled"><a href="http://ht.home.capitalonline.net/jsp/contract/new.jsp#">末页</a></li></ul></div></div></div></div>
+</form>
+
+<script type="text/javascript">
+function selectData(id, no) {
+	
+	let temp = $.extend({}, cloudOrderView.currentNode);
+	temp.cloudVlanId = id;
+	temp.cloudVlanDetail = no;
+	cloudOrderView.messageArry.replace(cloudOrderView.currentNode, temp)
+	$('#cdialog').hide();
+	$('.modal-backdrop').remove();
+	$('body').css('overflow', 'scroll');
+}
+var cloudOrderDialog;
+$(document).ready(function(){
+	var dtcot = $('#cloudDataTables').DataTable({
+		sDom: "Tt<'row-fluid'<'span6'i><'span6'p>>",
+		bSort : false,
+		oTableTools : {aButtons:[]},
+		aoColumns : [
+			{
+				mData : function(item){
+					return '<a href="javascript:selectData(' + item['vlanId'] + ',\'' + item['vlanNo'] + '\');">选择</a>';
+				},
+				sWidth:50
+			},
+			{
+				mData : function(item){
+					return cellRenderer(item, "site");
+				},
+				sWidth:50
+			},
+			{
+				mData : function(item){
+					return cellRenderer(item, "site");
+				},
+				sWidth:50
+			},
+			{
+				mData : function(item){
+					return cellRenderer(item, "podNo");
+				},
+				sWidth:50
+			},
+			{
+				mData : function(item){
+					return cellRenderer(item, "vlanNo");
+				},
+				sWidth:50
+			},
+			{
+				mData : function(item){
+					return cellRenderer(item, "publicIp");
+				},
+				sWidth:50
+			},
+			{
+				mData : function(item){
+					return cellRenderer(item, "bandwidth");
+				},
+				sWidth:50
+			}
+		],
+		fnRowCallback : function (nRow, aData, iDisplayIndex, iDisplayIndexFull) {
+			$("td:eq(1)", nRow).html(iDisplayIndexFull + 1); //设置序号位于第一列，并顺次加一
+			return nRow;
+		}
+	});
+	cloudOrderDialog = {
+			siteArray: [], // 区域
+			vlanArray: [], // vlan
+			podArray: [], // vlan
+			ipArray: [], // ip
+			search: {
+				secondParty: ko.observable(''),
+				belongId: ko.observable(''),
+				vlan: ko.observable(''),
+				site: ko.observable(''),
+				pod: ko.observable(''),
+				ip: ko.observable('')
+			},
+			event: {
+				searchFn () {
+					let params = {
+						belongId: this.search.belongId(),
+						customerNo: cloudOrderView.baseInfo.customerNo(),
+						site: this.search.site(),
+						podNo: this.search.pod(),
+						vlanNo: this.search.vlan(),
+						ip: this.search.ip()
+					};
+					this.event.getVlanFn(params);
+				},
+				getVlanFn ({belongId = '', customerNo = '', zoneName = '', switchNo = '', portInfo = '', vlanNo = '', ip = ''}) {
+					http.post(s_ucenterservice + '/workOrderInterface/getCloudVlan',{belongId: baseOrderDialog.search.belongId(), currUserId: $.cookie('current_user_id'), customerNo, zoneName: escape(encodeURIComponent(zoneName)), switchNo, portInfo, vlanNo, ip}).then((r)=>{
+						dtcot.fnClearTable();
+						dtcot.fnAddData(r.aaData,true);
+					});
+				}
+			}
+		}
+	/* 监听站点的变化 */
+	cloudOrderDialog.search.site.subscribe((val)=>{
+		getPodFn({belongId: cloudOrderDialog.search.belongId(), site: val}).then(ret=>{
+			cloudOrderDialog.podArray = ret.cloudSitePodVlans;
+		});
+		getCloudVlanFn1({belongId: cloudOrderDialog.search.belongId(),site: val, podNo: cloudOrderDialog.search.pod()}).then(ret=>{
+			cloudOrderDialog.vlanArray = ret;
+			console.log(cloudOrderDialog.vlanArray)
+		});
+	});
+	/* 监听POD的变化 */
+	cloudOrderDialog.search.pod.subscribe((val)=>{
+		getCloudVlanFn1({belongId: cloudOrderDialog.search.belongId(),site: cloudOrderDialog.search.site(), podNo: val}).then(ret=>{
+			cloudOrderDialog.vlanArray = ret;
+		});
+	});
+
+	ko.applyBindings(cloudOrderDialog, document.getElementById('cloudDialog'));
+});
+function getCloudVlanFn ({customerNo = '', zoneName = '', switchNo = '', portInfo = '', vlanNo = '', ip = ''}) {
+	return http.post(s_ucenterservice + '/workOrderInterface/getCloudVlan',{currUserId: $.cookie('current_user_id'), customerNo, zoneName: escape(encodeURIComponent(zoneName)), switchNo, portInfo, vlanNo, ip, belongId: cloudOrderDialog.search.belongId()}).then((r)=>{
+		return r;
+	});
+}
+</script>   
+
+</div>
+<script>
+/* $('#cdialog').show(); */
+	/* 定义模型 */
+	var cloudOrderView = {
+		validateIp: 0,
+		ipstatus: ko.observable(0), // 是不是有IP类
+		currentNode: {},
+		requireSelects: ko.observableArray([]), // 线缆需求
+		portSelects: ko.observableArray([]), // 端口需求
+		clientRequireSelects: ko.observableArray([]), // 客户需求
+		/* contractItems: ko.observableArray(JSON.parse(localStorage.getItem('contractInfo')).items), */
+		contractItems: ko.observableArray([]),
+		messageArry: ko.observableArray([]), // 明细信息
+		message: {
+			isLimit: ko.observable(true),
+			port: ko.observable(),
+			require: ko.observable(),
+			clientRequire: ko.observable(),
+			overLimit: ko.observable(''),
+			memo: ko.observable('')
+		},
+		choose (node, e) {
+			let tmp = $.extend({}, node);
+			if (e.target.value == '否') {
+				tmp.cloudVlanId = '';
+				tmp.cloudVlanDetail = '';
+			}
+			tmp.isUseOldVlanPort = e.target.value;
+			cloudOrderView.messageArry.replace(node, tmp);
+		},
+		/* 显示弹窗 */
+		showDialog (node, e) {
+			cloudOrderView.currentNode = node;
+			$('#cdialog').show();
+			$("body").append("<div class='modal-backdrop  in'></div>");
+			
+			if (!!dm.frm.secondParty() && dm.frm.secondParty() != undefined) {
+				cloudOrderDialog.search.belongId(parseInt(dm.frm.secondParty()) == 9 ? 2 : 1);
+				cloudOrderDialog.search.secondParty(dm.frm.secondParty());
+			}
+			
+			/* 页面加载初始化数据 获取下拉框的全部数据 */
+			
+			getSiteFn({belongId: cloudOrderDialog.search.belongId()}).then(ret=>{
+				cloudOrderDialog.siteArray = ret.cloudSites;
+			});
+			getPodFn({belongId: cloudOrderDialog.search.belongId()}).then(ret=>{
+				cloudOrderDialog.podArray = ret.cloudSitePodVlans;
+			});
+			
+			getCloudVlanFn1({belongId: cloudOrderDialog.search.belongId()}).then(ret=>{
+				cloudOrderDialog.vlanArray = ret;
+			});
+			getIpFn({belongId: cloudOrderDialog.search.belongId()}).then(ret=>{
+				cloudOrderDialog.ipArray = ret;
+			});
+			
+			let params = {
+					belongId: cloudOrderDialog.search.belongId(),
+					customerNo: cloudOrderView.baseInfo.customerNo(),
+					zoneName: '',
+					switchNo: '',
+					portId: '',
+					vlanNo: '',
+					publicIp: ''
+				}
+			/* 获取已分配云Vlan的数据 */
+			cloudOrderDialog.event.getVlanFn($.extend(params, {currUserId: $.cookie('current_user_id')}));
+		},
+		saveContractAndOrder () {
+			cloudOrderView.validateIp = 0;
+			$resOrderItems = $('#resOrderItems');
+			$resOrderItems.validate({
+		        rules:{
+					memo: {maxlength: 200}
+				}
+		    });
+			let contract = $.extend({}, ko.toJS(dm.frm)); // 合同信息
+			let self = this;
+			let resOrder = {
+				orderType: '开通',
+				orderAttribute: '正式',
+				type: contract.type, // 1 基础 3 云 2，4 增值代购
+				customerId: contract.customerId, // 客户ID
+				isTurnFormal: '否', // 是否为转正工单
+				isRequirePortRateLimit: '是', // 是否需要端口限速
+				portType: self.message.port(), // 端口类型
+				topLineNeed:  self.message.require(), // 上联线缆需求
+				customerTopLine:  self.message.clientRequire(), // 客户上联要求
+				exceedLimit:  self.message.overLimit(), // 超流量限速
+				memo: self.message.memo(), // 备注
+				
+			};
+			let newItems = [{productCode: '', validQty: 0}]
+		
+			contract.items.forEach((item)=>{
+				if (item.proSubType.indexOf('端口') > -1) {
+					console.log($("select[name='cloudPort']").rules())
+					$("select[name='cloudPort']").rules("add", {required: true});
+					$("select[name='cloudClientRequire']").rules("add", {required: true});
+					$("select[name='cloudRequire']").rules("add", {required: true});
+				}
+				/* 可能会有重复的产品 所以要重组数据 */
+				newItems.forEach(nitem => {
+					let exitCode = newItems.map(item => item.productCode)
+					if (item.productCode == nitem.productCode) {
+						nitem.validQty = parseInt(nitem.validQty) + parseInt(item.qty)
+					} else if (!exitCode.includes(item.productCode)){
+						item.validQty = item.qty
+						newItems.push(item)
+					}
+				})
+			});
+			newItems.shift()
+			let msg = '';
+			self.messageArry().forEach((item,index)=>{
+				item.site = item.resourceType;
+				item.ProductName = item.productName;
+				item.productNum = item.qty;
+				item.productUnit = item.unit;
+				
+				/* if (item.proSubType.indexOf('主机类') > -1 && !$("input[name='modelName" + index + "']").val()) {
+					$("input[name='system" + index + "']").rules("add", {required: true});
+					$("input[name='bitNum" + index + "']").rules("add", {required: true});
+					$("input[name='version" + index + "']").rules("add", {required: true});
+				} else {
+					$("input[name='system" + index + "']").rules("remove");
+					$("input[name='bitNum" + index + "']").rules("remove");
+					$("input[name='version" + index + "']").rules("remove");
+				
+					$("input[name='system" + index + "']").parent().find('input').removeClass('error');
+					$("input[name='bitNum" + index + "']").parent().find('input').removeClass('error');
+					$("input[name='version" + index + "']").parent().find('input').removeClass('error');
+				} */
+				if (item.hostStatus && !cloudOrderView.ipstatus()) {
+					if (!item.privateIp && !item.publicIp) {
+						cloudOrderView.validateIp = 1; // 没通过
+					}
+				}
+				
+				if (item.isUseOldVlanPort == '是') {
+					if ((item.proSubType.indexOf('主机') > -1 || item.proSubType.indexOf('带宽') > -1|| item.proSubType.indexOf('IP') > -1) && !item.cloudVlanIds) {
+						msg += item.proSubType + '：请选择需要关联的VLAN资源 \n'
+					}
+				}
+				/* 校验数量 */
+				for(var zz=0; zz<newItems.length; ++zz){
+					if(newItems[zz].productCode == item.productCode){
+						newItems[zz].validQty -= item.productNum;
+					}
+				}
+			});
+			for(var zz=0; zz<newItems.length; ++zz){
+	        	if(newItems[zz].validQty != 0){
+	        		alert("选中数据数量不符");
+					return;
+				}
+	        }
+			if (cloudOrderView.validateIp) {
+				alert('私网IP和公网IP至少填写一项');
+				return false;
+			}
+			if(!$resOrderItems.valid()) return;
+			
+			if (!!msg) {
+				alert(msg);
+				return false;
+			}
+			
+			let resOrderItems = self.messageArry()
+			
+			let orderCode = resOrderItems.map(item => {
+	        	return item.productCode
+	        })
+	         /* 去重 */
+	        let uniqueOrder = Array.from(new Set(orderCode))
+	        
+	        let productCode = contract.items.map(item => {
+	        	return item.productCode
+	        })
+	        /* 去重 */
+	        let uniqueProduct = Array.from(new Set(productCode))
+	         
+	        if (uniqueOrder.length != uniqueProduct.length) {
+	        	alert('产品信息与工单信息不一致')
+				return
+	        }
+			let params = {contract, res_order: resOrder, res_order_items: self.messageArry(), status: 0};
+			saveContractAndOrder(params).then(ret=>{
+				let result = JSON.parse(ret);
+				if (result.code === '200') {
+					alert('保存成功');
+					window.location.href = "contractNewList.jsp";
+				} else {
+					alert(result.msg);
+				}
+			});
+		}
+	};
+	getPortSelects('portType').then((r)=>{
+		cloudOrderView.portSelects(r.DataDictionaryList);
+	});
+	getPortSelects('topLineNeed').then((r)=>{
+		cloudOrderView.requireSelects(r.DataDictionaryList);
+	});
+	getPortSelects('customerTopLine').then((r)=>{
+		cloudOrderView.clientRequireSelects(r.DataDictionaryList);
+	});
+	cloudOrderView.baseInfo = ko.mapping.fromJS({
+		applyTime: '', // 申请日期
+		employeeName: '', // 销售人员
+		departmentName: '', // 部门
+		customerName: '', // 客户名称
+		customerNo: '', // 客户编号
+		orderNo: '', // 工单编号
+		operateName: '', // 客户技术联系人
+		operatePhone: '', // 客户基数联系人电话
+		contractTime: '', // 开通日期
+		orderType: '开通', // 工单类型
+		businessType: '云服务', // 业务类型
+		isRegular: '否', // 是否转正工单
+	});
+	/* 绑定 */
+	ko.applyBindings(cloudOrderView, document.getElementById('cloudOrder'));
+	
+	/* function filterID (id, arr, field) {
+		if (arr.length < 1) return -1;
+		let keys = [];
+		arr.forEach((item)=>{
+			keys.push(item[field]);
+		})
+		let value = keys.indexOf(id);
+		return value;
+	} */
+</script>
+								<!-- 工单（增值和代购） -->
+
+<style>
+.order-container {
+	padding: 20px;
+}
+
+.order-container fieldset {
+	margin-bottom: 20px;
+}
+</style>
+<div class="order-container" id="addValueOrder">
+	<div class="block-content">
+		<form id="frm" class="form-inline">
+			<fieldset class="order-section">
+				<legend>基本信息</legend>
+				<table class="tbl-6 nowrap">
+					<tbody>
+						<tr>
+							<th>申请日期：</th>
+							<td data-bind="text:baseInfo.applyTime"></td>
+							<th>销售人员：</th>
+							<td data-bind="text:baseInfo.employeeName"></td>
+							<th>部门：</th>
+							<td data-bind="text:baseInfo.departmentName"></td>
+						</tr>
+						<tr>
+							<th>客户名称：</th>
+							<td data-bind="text:baseInfo.customerName"></td>
+							<th>客户编号：</th>
+							<td data-bind="text:baseInfo.customerNo"></td>
+							<th>工单编号：</th>
+							<td data-bind="text:baseInfo.orderNo"></td>
+						</tr>
+						<tr>
+							<th>客户技术联系人：</th>
+							<td data-bind="text:baseInfo.operateName"></td>
+							<th>客户技术联系人电话：</th>
+							<td data-bind="text:baseInfo.operatePhone"></td>
+							<th>开通日期：</th>
+							<td data-bind="text:baseInfo.contractTime"></td>
+						</tr>
+						<tr>
+							<th>工单类型：</th>
+							<td data-bind="text:baseInfo.orderType">开通</td>
+							<th>业务类型：</th>
+							<td data-bind="text:baseInfo.businessType">增值服务</td>
+							<th>是否转正工单：</th>
+							<td data-bind="text:baseInfo.isRegular">否</td>
+						</tr>
+					</tbody>
+				</table>
+			</fieldset>
+			<fieldset class="order-section">
+				<legend>明细信息</legend>
+				<table class="table tbl table-hover table-bordered" id="tblcontract">
+					<thead>
+						<tr>
+							<th>适用范围</th>
+							<th>产品编码</th>
+							<th>产品名称</th>
+							<th>数量</th>
+							<th>单位</th>
+							<th>资源</th>
+						</tr>
+					</thead>
+					<tbody data-bind="foreach: messageArry"></tbody>
+				</table>
+				<table class="tbl-6 nowrap" style="width: auto; margin: 0 auto;">
+					<tbody>
+						<tr>
+							<th>备注：</th>
+							<td>
+								<textarea data-bind="value: message.note"></textarea>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</fieldset>
+			
+			<div class="form-actions">
+				<a class="btnh btn-lg btn-h" data-bind="click: saveContractAndOrder"><i class="icon-ok icon-white"></i>保存</a>
+				<a class="btnh btn-lg btn-h" href="javascript:history.back();"><i class="icon-share icon-white"></i>返回</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+<script>
+	/* 定义模型 */
+	var addValueOrderView = {
+		contractItems: ko.observableArray([]),
+		messageArry: ko.observableArray([]),
+		message: {
+			note: ko.observable('')
+		},
+		saveContractAndOrder () {
+			let contract = $.extend({}, ko.toJS(dm.frm)); // 合同信息
+			let self = this;
+			let resOrder = {
+				orderType: '开通',
+				orderAttribute: '正式',
+				type: contract.type, // 1 基础 3 云 2，4 增值代购
+				customerId: contract.customerId, // 客户ID
+				isTurnFormal: '否', // 是否为转正工单
+				memo: self.message.note(), // 备注
+			};
+			self.messageArry().forEach((item)=>{
+				item.site = item.resourceType;
+				item.ProductName = item.productName;
+				item.productNum = item.qty;
+				item.productUnit = item.unit;
+			});
+			let params = {contract, res_order: resOrder, res_order_items: self.messageArry(), status: 0};
+			console.log(params)
+			saveContractAndOrder(params).then(ret=>{
+				let result = JSON.parse(ret);
+				if (parseInt(result.code) === 200) {
+					alert('保存成功');
+					window.location.href = "contractNewList.jsp";
+				} else {
+					alert(result.msg);
+				}
+			});
+		}
+	};
+	addValueOrderView.baseInfo = ko.mapping.fromJS({
+		applyTime: '', // 申请日期
+		employeeName: '', // 销售人员
+		departmentName: '', // 部门
+		customerName: '', // 客户名称
+		customerNo: '', // 客户编号
+		orderNo: '', // 工单编号
+		operateName: '', // 客户技术联系人
+		operatePhone: '', // 客户基数联系人电话
+		contractTime: '', // 开通日期
+		orderType: '开通', // 工单类型
+		businessType: '增值服务', // 业务类型
+		isRegular: '否', // 是否转正工单
+	});
+
+	/* 绑定 */
+	ko.applyBindings(addValueOrderView, document.getElementById('addValueOrder'));
+</script>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div><ul class="ui-autocomplete ui-front ui-menu ui-widget ui-widget-content" id="ui-id-1" tabindex="0" style="display: none;"></ul><span role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></span><ul class="ui-autocomplete ui-front ui-menu ui-widget ui-widget-content" id="ui-id-2" tabindex="0" style="display: none;"></ul><span role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></span><ul class="ui-autocomplete ui-front ui-menu ui-widget ui-widget-content" id="ui-id-3" tabindex="0" style="display: none;"></ul><span role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></span><ul class="ui-autocomplete ui-front ui-menu ui-widget ui-widget-content" id="ui-id-4" tabindex="0" style="display: none;"></ul><span role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></span><ul class="ui-autocomplete ui-front ui-menu ui-widget ui-widget-content" id="ui-id-5" tabindex="0" style="display: none;"></ul><span role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></span><ul class="ui-autocomplete ui-front ui-menu ui-widget ui-widget-content" id="ui-id-6" tabindex="0" style="display: none;"></ul><span role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></span><ul class="ui-autocomplete ui-front ui-menu ui-widget ui-widget-content" id="ui-id-7" tabindex="0" style="display: none;"></ul><span role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></span><ul class="ui-autocomplete ui-front ui-menu ui-widget ui-widget-content" id="ui-id-8" tabindex="0" style="display: none;"></ul><span role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></span><ul class="ui-autocomplete ui-front ui-menu ui-widget ui-widget-content" id="ui-id-9" tabindex="0" style="display: none;"></ul><span role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></span><ul class="ui-autocomplete ui-front ui-menu ui-widget ui-widget-content" id="ui-id-10" tabindex="0" style="display: none;"></ul><span role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></span>
+	
+
+	<script>
+var dm;
+$(document).ready(function(){
+	$('#baseOrder').hide();
+	$('#cloudOrder').hide();
+	$('#addValueOrder').show();
+	fnTopConsole.focus(fnTopConsole.INDEX_Contract);
+	var $frm = $('#frm'), $tblinfo=$('#tblinfo'), $tblcot = $('#tblcontract');
+	$frm.validate({
+        rules:
+        {
+        	customerName: {required: true},
+        	beginDate:{required: true, date: true},
+            endDate:{required: true, date: true},
+            serviceLife:{required: true},
+            secondParty:{required: true},
+            type: {required: true},
+            paymentMethod: {required: true},
+            paymentDays: {required: true},
+            mem: {maxlength: 200}
+        },
+		submitHandler:function(form){
+	        return false;
+	    },
+	    errorPlacement : function(error, element) {
+	    	if(element.parent().is('td')) element.parent().append(error); else element.parentsUntil('td').parent().append(error);
+	    }
+    });
+	
+	/* 验证IP类输入数量的规则 */
+	$.validator.addMethod("validQty", function(value, element, param) {    
+		let flag = $.inArray(parseInt(value), param) > -1 ? true : false;
+		return this.optional(element) || flag;       
+	}, "请输入正确的IP数量");   
+	
+	/* 验证数量是非零的正整数 */
+	$.validator.addMethod("validNum", function(value, element, param) {    
+		let flag = param.test(value);
+		return this.optional(element) || flag;       
+	}, "请输入正确的数值");
+	
+	$('.daterange').daterangepicker({
+		minDate: new Date(),
+		singleDatePicker: true,
+		format: 'YYYY-MM-DD',
+		showDropdowns: true,
+		locale: {
+            applyLabel: '确定',
+            cancelLabel: '清空',
+            fromLabel: '从',
+            toLabel: '到',
+            customRangeLabel: '自定义',
+            daysOfWeek: ['日', '一', '二', '三', '四', '五', '六'],
+            monthNames: ['一月', '二月', '三月', '四月', '五月', '六月', '七月', '八月', '九月', '十月', '十一月', '十二月'],
+            firstDay: 1
+        }
+	}).on('cancel.daterangepicker', function(ev, picker) {
+		$(this).val(null);
+		$(this).change();
+	}).on('hide.daterangepicker', function(ev, picker) {
+		$(this).blur();
+	});
+	dm = {
+		tempfrm : {
+			customer : ko.observable(),
+			computedTimeStamp : ko.observable(),
+			b_servicelife : ko.observable(0),
+			b_disposableFlag :ko.observable(0)
+		},
+		item: function(data){
+			var m = ko.mapping.fromJS({
+				productId : null,
+				productCode : null,
+				productName : null,
+				resourceType : null,
+				proType : null,
+				proSubType : null,
+				unit : null,
+				qty : null,
+				price : null,
+				contractPrice : null,
+				factPrice : null,
+				mincome : null,
+				contractFactPrice : null,
+				discountRate : null,
+				c_mincome : null,
+				c_contractFactPrice : null,
+				c_discountRate : null,
+				pricelist : [],
+				unitlist : [],
+				isShared: '', // 是否共享
+			});
+			m.factPrice.subscribe(function(newVal){
+				var flag = checkfloat2(newVal);
+				if(!flag){
+					alert('单价最多输入2位小数,请重新输入');
+					m.factPrice(toDecimal2(newVal));
+					
+				}
+				
+			});
+			m.autocomputed = ko.computed(function(){
+		
+				var d = ko.toJS(m) || {};
+				$.extend(d,{qty:Number(d['qty']),price:Number(d['price']),factPrice:Number(d['factPrice'])});
+				var sl = Number(dm.tempfrm.b_servicelife());
+				//sl = !!sl && !window.isNaN(sl) ? sl : 0;
+				var plarr = !!d.qty && $.grep(d.pricelist,function(n){
+					return d.unit === n.unit && (!n.lowerLimit || n.lowerLimit <= d.qty) && (!n.upperLimit || d.qty <= n.upperLimit);
+				});
+				if(!plarr || plarr.length < 1)
+					plarr = $.grep(d.pricelist,function(n){
+						return d.unit === n.unit && (!n.lowerLimit || n.lowerLimit ===1) && (!n.upperLimit || n.upperLimit===1);
+					});
+				  m.price(!!plarr && plarr.length > 0 ? plarr[0].money: 0);
+				
+				  m.contractPrice(!!d.qty && !!d.price? d.qty * d.price: 0);
+					var m_mincome = !!d.qty && !!d.factPrice ? d.qty * d.factPrice: 0;
+					m.c_mincome(m_mincome);
+					//一次性合同勾选，合同总价等于月收入
+					var b_disposableFlag_1 = Number(dm.tempfrm.b_disposableFlag());
+					if(b_disposableFlag_1==1){
+						m.c_contractFactPrice(!!m_mincome && !!sl? m_mincome: 0 );
+					}else{
+						m.c_contractFactPrice(!!m_mincome && !!sl? m_mincome * sl : 0 );
+					}
+					
+					m.c_discountRate(!!d.factPrice && !!d.price ? (d.factPrice * 100 / d.price ): 0 );
+				/* } */
+					m.mincome(tofix(m.c_mincome(),2));
+					m.contractFactPrice(tofix(m.c_contractFactPrice(),2));
+					m.discountRate(tofix(m.c_discountRate(),2));
+					
+			}).extend({throttle:100});
+			
+			/* m.c_mincome.subscribe(function(val){
+				m.mincome(tofix(val,2));
+			});
+			
+			m.c_contractFactPrice.subscribe(function(val){
+				m.contractFactPrice(tofix(val,2));
+			});
+			
+			m.c_discountRate.subscribe(function(val){
+				m.discountRate(tofix(val,2));
+			}); */
+			
+			!!data && ko.mapping.fromJS(data,m);
+			return m;
+		},
+		flag: ko.observable(false),
+		frm : {
+			attribute : ko.observable(1),
+			customerId : ko.observable(),
+			customerName : ko.observable(),
+			customerNo : ko.observable(),
+			beginDate : ko.observable(),
+			endDate : ko.observable(),
+			serviceLife : ko.observable(),
+			createId : ko.observable($.cookie('current_user_id')),
+			createBy : ko.observable($.cookie('current_user_username')),
+			secondParty :ko.observable(),
+			type : ko.observable(),
+			payMethod : ko.observable(),
+			paymentDays : ko.observable(),
+			shortFlag : ko.observable(),
+			disposableFlag : ko.observable(),
+			mem : ko.observable(),
+			items : ko.observableArray([]),
+			totalAmountMonth : ko.observable(),
+			amountMonth : ko.observable(),
+			totalAmount : ko.observable(),
+			discountRate : ko.observable(0),
+			c_totalAmountMonth : ko.observable(),
+			c_amountMonth : ko.observable(),
+			c_totalAmount : ko.observable(),
+			c_discountRate : ko.observable()
+			
+		},
+		dict : {
+			secondParty :  ko.observableArray([]),
+			type : ko.observableArray([]),
+			payMethod : ko.observableArray([]),
+			product : ko.observableArray([]),
+			//paymentDays : ko.observableArray([])
+		}
+	};
+	
+	dm.tempfrm.isItemsMax = ko.computed(function(){
+		return dm.frm.items().length >= 200;
+	});
+	
+	dm.tempfrm.isItemsMin = ko.computed(function(){
+		return dm.frm.items().length < 2;
+	});
+	
+	dm.tempfrm.computed_event = ko.computed(function(){
+		var d = ko.toJS(dm.frm) || {}, items = d['items'], itemlen = !!items && items.length
+			tam = 0, am = 0, ta = 0, dr = 0;
+		if(!window.isNaN(d.serviceLife) && itemlen>0){
+			for(var i = 0; i < itemlen; i++){
+				tam += (items[i].contractPrice - 0) || 0;
+				am += (items[i].mincome - 0) || 0;
+				ta += (items[i].contractFactPrice - 0) || 0;
+			}
+			dr = !!d.amountMonth && !!d.totalAmountMonth ? d.amountMonth * 100 / d.totalAmountMonth : 0;
+			dm.frm.c_totalAmountMonth(tam);
+			dm.frm.c_amountMonth(am);
+			dm.frm.c_totalAmount(ta);
+			dm.frm.c_discountRate(dr);
+		}
+	}).extend({ throttle : 200 });
+	
+
+	dm.frm.c_serviceLife = ko.computed(function(){
+		var servicelife=0;
+		var data = {
+				beginDate : dm.frm.beginDate(),
+				endDate : dm.frm.endDate()
+			};
+		!!dm.frm.beginDate()&&!!dm.frm.endDate() && contract.calculationServiceLife(data).then(function(r){
+			var ret = $.extend({value:null},contract.response, $.toJS(r));
+			servicelife = ret.value['serviceLife'];
+			dm.tempfrm.b_servicelife(servicelife);
+			dm.frm.serviceLife(servicelife);
+			
+			return servicelife;
+		});
+		
+	});  
+	dm.frm.serviceLife.subscribe(function(val){
+		
+		var d = Number(val);
+		var c = Number(val);
+		d = !!d && !window.isNaN(d) && d > 0? d.toFixed(2):null;
+		c = !!c && !window.isNaN(c) && c > 0? c.toFixed(2):null;
+		if(d>=12){
+			
+			$(':checkbox').attr('checked',false);
+			$(':checkbox').attr("disabled","disabled");
+		}
+		else {			
+			$("#shortFlag").removeAttr("disabled"); 
+		}
+		//dm.tempfrm.b_servicelife(c);
+		//dm.frm.serviceLife(d);
+	});
+
+	dm.frm.c_disposableFlag = ko.computed(function(){
+		
+		
+		var flag = 0;
+		if(!!dm.frm.beginDate()&&!!dm.frm.endDate()){
+		    var begin = new Date(dm.frm.beginDate().replace(/-/g,"/"));
+		    var end = new Date(dm.frm.endDate().replace(/-/g,"/"));
+		    if(begin.getFullYear()==end.getFullYear()&&begin.getMonth()==end.getMonth()){
+		    	//$("[name='shortFlag']:checkbox").iCheck('check');
+		    	// $("[name='disposableFlag']:checkbox").iCheck('check');
+		    
+		    	flag =1;
+		    } 	
+		}
+		if(flag==0){
+			dm.tempfrm.b_disposableFlag(0);
+			$("#disposableFlag").attr("disabled", "disabled");
+			$("[name='disposableFlag']:checkbox").attr('checked',false);
+		}else{
+			
+			$("#disposableFlag").removeAttr("disabled"); 
+		}
+		
+		
+	});
+	dm.frm.c_totalAmountMonth.subscribe(function(val){
+		dm.frm.totalAmountMonth(tofix(val,2));
+	});
+	
+	dm.frm.c_amountMonth.subscribe(function(val){
+		dm.frm.amountMonth(tofix(val,2));
+	});
+	
+	dm.frm.c_totalAmount.subscribe(function(val){
+		dm.frm.c_totalAmount(tofix(val,2));
+
+		if($("input[name='disposableFlag']").is(':checked')){
+			dm.frm.totalAmount(tofix(dm.frm.amountMonth(),2));
+		}else{
+			dm.frm.totalAmount(tofix(val,2));
+		}
+		
+	});
+	
+	dm.frm.c_discountRate.subscribe(function(val){
+		dm.frm.discountRate(tofix(val,2));
+	});
+	
+	dm.frm.items.push(new dm.item());
+
+	
+	dm.tempfrm.customer.subscribe(function(newVal){
+		if(!!newVal){
+			var clist = ko.toJS(dm.dict.custom) || [];
+			var i= clist.length;
+			for(var j=0;j<i;j++){
+				if(clist[j]['id'] === newVal){
+					break;
+				}
+			}
+			if(j<i){
+				dm.frm.customerId(clist[j]['id']);
+				dm.frm.customerNo(clist[j]['customerNo']);
+				dm.frm.customerName(clist[j]['customerName']);
+				return;
+			}
+		}
+		dm.frm.customerId(null);
+		dm.frm.customerNo(null);
+		dm.frm.customerName(null);
+	});
+	
+	dm.event = {
+		/**	
+		customSelected: function(elm,ui){
+			var item = !!ui ? ui['item'] || {} : {};
+			dm.frm.customerId(item['id']);
+			dm.frm.customerNo(item['customerNo']);
+		}
+	**/
+		selectSecondParty (node, e) {
+			
+			if (parseInt(dm.frm.type()) == 1) {
+				let isPortVlan = false;
+				if (baseOrderView.messageArry().length > 0) {
+					baseOrderView.messageArry().forEach(item=>{
+						if (!!item.basePortIds || !!item.baseVlanIds) isPortVlan = true;
+					})
+				}
+				if (isPortVlan) {
+					console.log('基础已经选择了端口和VLAN')
+					if (parseInt(baseOrderDialog.search.secondParty()) == 9 && parseInt(this.frm.secondParty()) != 9 ||
+							parseInt(baseOrderDialog.search.secondParty()) != 9 && parseInt(this.frm.secondParty()) == 9
+					) {
+						alert('您已经选择了工单资源，不能修改乙方公司');
+					};
+				}
+				console.log('基础现在选择的' + dm.frm.secondParty())
+				console.log('基础已经选择的' + baseOrderDialog.search.secondParty())
+			} else if (parseInt(dm.frm.type()) == 3) {
+				let isCloudVlan = false;
+				
+				if (cloudOrderView.messageArry().length > 0) {
+					cloudOrderView.messageArry().forEach(item=>{
+						if (!!item.cloudVlanId) isCloudVlan = true;
+					})
+				}
+				if (isCloudVlan) {
+					console.log('已经选择了端口和VLAN')
+					if (parseInt(cloudOrderDialog.search.secondParty()) == 9 && parseInt(dm.frm.secondParty()) != 9 ||
+							parseInt(cloudOrderDialog.search.secondParty()) != 9 && parseInt(dm.frm.secondParty()) == 9
+					) {
+						alert('您已经选择了工单资源，不能修改乙方公司');
+					};
+				}
+				console.log('现在选择的' + dm.frm.secondParty())
+				console.log('已经选择的' + cloudOrderDialog.search.secondParty())
+			}
+			
+		},
+	    checkDisposableFlag:function(_this){
+	    	if($("input[name='disposableFlag']").is(':checked')){
+	    		$("[name='shortFlag']:checkbox").iCheck('check');
+	    		$("#shortFlag").attr("disabled", "disabled");
+	    		dm.tempfrm.b_disposableFlag(1);
+	    		//dm.frm.totalAmount(dm.frm.amountMonth());	    		
+	    	}else{
+	    		dm.tempfrm.b_disposableFlag(0);
+	    		$("#shortFlag").removeAttr("disabled"); 
+	    		//dm.frm.totalAmount(dm.frm.c_totalAmount());
+	    	}
+	    }
+		,autocompleteselect: function(elm,ui){
+			
+			var item = !!ui ? ui['item'] || {} : {}, self = this;
+			console.log(item)
+			self.resourceType(item['rangeName']);
+			self.proSubType(item['subCategoryName']);
+			self.proType(item['categoryName']);
+			self.isShared(item.isShared);
+			if(!getProductType(ko.toJS(dm.frm.items))){
+				alert("资源录入为不同业务类型");
+				self.productName("");
+				
+				elm.preventDefault();//取消该事件的默认行为:可以阻止输入框的值被更改，但不会阻止菜单被关闭。
+				return false;
+			};
+			self.productId(item['productId']);
+			self.productName(item['productName']);	
+			self.productCode(item['productCode']);
+			self.resourceType(item['rangeName']);
+			self.proSubType(item['subCategoryName']);
+			self.proType(item['categoryName']);
+			if(!item['productId']){
+				self.pricelist([]);
+				self.unitlist([]);
+				return;
+			}
+			var params={
+					productId:item['productId']
+			}
+			
+			
+			contract.product.getPriceByProductId(params).then(function(r){
+				
+				 var arrUnit = [];
+				 var arrUnitDataA = [];
+				 var arrUnitDataB = [];
+				 var optionText = "";
+				 $.each(r.value,function(i,value){
+					 if (value != null) {
+						 arrUnitDataA.push(value.unit);
+					 }
+				});
+				 if (arrUnitDataA.length < 1) return;
+				 for(var i = 0; i < arrUnitDataA.length; i++){
+					 var optionValue = arrUnitDataA[i];
+					 if(arrUnitDataB.length > 0){
+						 var ff = true;
+						 for(var y = 0; y < arrUnitDataB.length; y++){
+							 if(optionValue == arrUnitDataB[y]){
+								 ff = false;
+							 }
+						 }
+						 if(ff){
+							 arrUnitDataB.push(optionValue);
+							 arrUnit.push({"unit": "" + optionValue + ""});
+						 }
+					 }else{
+						 arrUnitDataB.push(optionValue);
+						 arrUnit.push({"unit": "" + optionValue + ""});
+					 }
+				 }
+				 var f = $.toJS(JSON.stringify(arrUnit));
+					!!f && self.unitlist(f);
+				
+				var d = $.toJS(r.value);
+				!!d && self.pricelist(d);
+			});
+		}
+		,additems: function(){
+			if (dm.frm.items().length > 0) {
+				let flag = true;
+				dm.frm.items().forEach(item => {
+					if (!item.productName()) flag = false;
+				});
+				if (!flag) {
+					alert('请将产品信息填写完整 再添加新产品');
+					return;
+				}
+			}
+			!dm.tempfrm.isItemsMax() && dm.frm.items.push(new dm.item());
+		}
+		,removeitems: function(){
+			!dm.tempfrm.isItemsMin() && dm.frm.items.remove(this);
+			return;
+			/*var d = ko.toJS(dm.frm) || {};
+			 if(!getProductType(d.items)){
+				alert("资源录入为不同业务类型");
+				return;
+			}; */
+		}
+	
+		,save: function(){
+			/* if(!$frm.valid()) return; */
+			dm.frm.shortFlag($tblinfo.find(':checkbox:checked[name=shortFlag]').val());
+			dm.frm.disposableFlag($tblinfo.find(':checkbox:checked[name=disposableFlag]').val());
+			var notnull=true;
+			$('input:text',$tblcot).each(function(){
+				notnull = !!$(this).val();
+				if(!notnull){
+					$(this).addClass('error');
+				}else{
+					$(this).removeClass('error');
+				}
+				return notnull;
+			});
+			if(!notnull) {
+				alert('产品列表信息非空');
+				return false;
+			}
+			var d = ko.toJS(dm.frm) || {};
+			if (d.customerNo == 'undefined' || d.customerNo == "" || d.customerNo == null) {
+				alert('客户名称无效');
+				return false;
+			}
+			/* if(!getProductType(d.items)){
+				alert("资源录入为不同业务类型");
+				return;
+			}; */
+		    console.log(d.type)
+			if (!d.type) {
+				alert('当前资源请您按照客户实际使用情况，判别业务类型为云平台或基础服务');
+				return false;
+			}
+		    console.log(d.type)
+			var mark = true;
+			var now = dateFormat(new Date , 'yyyy-MM-dd');
+		
+			 if(d.beginDate < now){
+				 alert('合同开始日期必须大于或等于当前日期');
+				 mark = false;
+				 return false;
+			 }
+			 
+			 if(d.beginDate > d.endDate){
+				 alert('合同开始日期必须小于结束日期');
+				 mark = false;
+				 return false;
+			 }
+
+			let contractItems = ko.toJS(dm.frm).items;
+			let zeroFlag = false;
+			
+			contractItems.forEach((val,index)=>{
+				$("input[name='qty"+index+"']").rules("add", {validNum: /^[1-9]\d*|0$/});
+				$("input[name='factPrice"+index+"']").rules("add", {validNum: /^[0-9]+(\.[0-9]{1,2})?$/});
+				/* 如果是独享 才需要做限制 */
+				if (val.proSubType.indexOf('IP类') > -1 && val.isShared != '是') {
+					$("input[name='qty"+index+"']").rules("add", {validQty: [4, 8, 16, 32, 64, 128, 256]});
+				} else {
+					$("input[name='qty"+index+"']").rules("remove");
+				}
+				if (parseInt(val.qty) == 0) zeroFlag = true;
+			});
+			
+			if(!$frm.valid()) return;
+			
+			if (zeroFlag) {
+				if (!confirm("有资源数量为零，是否继续？")) return;
+			}
+		
+			/* 基础显示数量 */
+			var productType = {'VLAN类': true, '端口类': true, '机柜类': true, '专线类': true, '机位类': true};
+			/* 基础显示弹窗类 */
+			var confirmType = {'VLAN类': true, 'IP类': true, '带宽类': true};
+			
+			/* 云显示数量 */
+			var cloudProductType = {'VLAN类': true, '主机类': true, '端口类': true};
+			/* 云显示弹窗类 */
+			var cloudConfirmType = {'主机类': true, 'IP类': true, '带宽类': true};
+			
+			switch (parseInt(d.type)) {
+				case 1:
+					baseOrderView.messageArry([]);
+					contractItems.forEach((item,index)=>{
+						item.unit = item.unit || ''
+						/* 或者是IP类 并且 产品性质是共享 则 拆分  */
+						if (productType[item['proSubType']] || (item['proSubType'].indexOf('IP类') > -1 && item['isShared'] == '是')) {
+							let num = item.qty;
+							for (let i = 0; i < num; i++) {
+								let tempNode = $.extend({}, item);
+								tempNode.qty = 1;
+								tempNode.basePortDetail = '';
+								tempNode.baseVlanDetail = '';
+								tempNode.isRelationPortOrVlan = 0; // 是否关联 端口 、VLAN
+								tempNode.isUseOldVlanPort = '否';
+								if (confirmType[item['proSubType']]) {
+									/* 资源归属是力通 并且 带宽类或者IP类 显示 是否关联端口/Vlan下拉框 */
+									if (dm.frm.secondParty() == 9 && (item['proSubType'].indexOf('IP') > -1 || item['proSubType'].indexOf('带宽') > -1)) {
+										tempNode.relationStatus = 1;
+									} else {
+										tempNode.relationStatus = 0;
+									}
+									tempNode.status = 1;
+								} else {
+									tempNode.relationStatus = 0;
+									tempNode.status = 0;
+								}
+								baseOrderView.messageArry.push(tempNode);
+							}
+							
+						} else {
+							let tempNode = $.extend(true, item, {});
+							item.basePortDetail = '';
+							item.baseVlanDetail = '';
+							item.isRelationPortOrVlan = 0; // 是否关联 端口 、VLAN
+							item.isUseOldVlanPort = '否';
+							if (confirmType[item['proSubType']]) {
+								/* 资源归属是力通 并且 带宽类或者IP类 显示 是否关联端口/ Vlan下拉框 */
+								if (dm.frm.secondParty() == 9 && (item['proSubType'].indexOf('IP') > -1 || item['proSubType'].indexOf('带宽') > -1)) {
+									item.relationStatus = 1;
+								} else {
+									item.relationStatus = 0;
+								}
+								item.status = 1;
+							} else {
+								item.relationStatus = 0;
+								item.status = 0;
+							}
+							
+							baseOrderView.messageArry.push(item);
+						}
+					})
+					
+					/* 获取客户信息数据 */
+					getClientInfoFn({customerNo: ko.toJS(dm.frm).customerNo}).then(result=>{
+						baseOrderView.baseInfo.customerName(ko.toJS(dm.frm).customerName);
+						baseOrderView.baseInfo.employeeName(ko.toJS(dm.frm).createBy);
+						baseOrderView.baseInfo.customerNo(ko.toJS(dm.frm).customerNo);
+						baseOrderView.baseInfo.contractTime(ko.toJS(dm.frm).beginDate);
+						baseOrderView.baseInfo.applyTime(now);
+						
+						baseOrderView.baseInfo.operateName(result[0]['operateName']);
+						baseOrderView.baseInfo.operatePhone(result[0]['operatePhone']);
+						baseOrderView.baseInfo.departmentName(result[0]['department']);
+					});
+					
+					$('#baseOrder').css('display', 'block');
+					$('#cloudOrder').css('display', 'none');
+					$('#addValueOrder').css('display', 'none');
+					break;
+				case 3:
+					cloudOrderView.ipstatus(0);
+					cloudOrderView.messageArry([]);
+					
+					contractItems.forEach((item,index)=>{
+						item.unit = item.unit || '';
+						item.modelName = '';
+						item.operationSystem = '';
+						item.version = '';
+						item.bitNum = '';
+						item.partitionRequire = '';
+						item.publicIp = '';
+						item.privateIp = '';
+						if (item['proSubType'] == 'IP类') cloudOrderView.ipstatus(1);
+						if (item['proSubType'] == '主机类') item.hostStatus = 1;
+						else item.hostStatus = 0;
+						if (cloudProductType[item['proSubType']]) {
+							let num = item.qty;
+							for (let i = 0; i < num; i++) {
+								let tempNode = $.extend({}, item);
+								tempNode.qty = 1;
+								if (cloudConfirmType[item['proSubType']]) tempNode.status = 1;
+								else tempNode.status = 0;
+								tempNode.cloudVlanDetail = '';
+								tempNode.isUseOldVlanPort = '否';
+								tempNode.isRelationPortOrVlan = 0;
+								cloudOrderView.messageArry.push(tempNode);
+							}
+						} else {
+							let tempNode = $.extend(true, item, {});
+							tempNode.status = 0;
+							item.cloudVlanDetail = '';
+							item.isUseOldVlanPort = '否';
+							tempNode.isRelationPortOrVlan = 0;
+							if (cloudConfirmType[item['proSubType']]) item.status = 1;
+							else item.status = 0;
+							cloudOrderView.messageArry.push(item);
+						}
+					});
+					
+					cloudOrderView.contractItems(contractItems);
+					
+					/* 获取客户信息数据 */
+					getClientInfoFn({customerNo: ko.toJS(dm.frm).customerNo}).then(result=>{
+						cloudOrderView.baseInfo.customerName(ko.toJS(dm.frm).customerName);
+						cloudOrderView.baseInfo.employeeName(ko.toJS(dm.frm).createBy);
+						cloudOrderView.baseInfo.customerNo(ko.toJS(dm.frm).customerNo);
+						cloudOrderView.baseInfo.contractTime(ko.toJS(dm.frm).beginDate);
+						cloudOrderView.baseInfo.applyTime(now);
+						
+						cloudOrderView.baseInfo.operateName(result[0]['operateName']);
+						cloudOrderView.baseInfo.operatePhone(result[0]['operatePhone']);
+						cloudOrderView.baseInfo.departmentName(result[0]['department']);
+					});
+					
+					$('#cloudOrder').css('display', 'block');
+					$('#baseOrder').css('display', 'none');
+					$('#addValueOrder').css('display', 'none');
+					break;
+				default:
+					addValueOrderView.messageArry([]);
+					contractItems.forEach((item,index)=>{
+						item.unit = !!item.unit ? item.unit : '';
+						if (item['proSubType'].indexOf('邮件') > -1) {
+							let num = item.qty;
+							for (let i = 0; i < num; i++) {
+								let tempNode = $.extend({}, item);
+								tempNode.qty = 1;
+								addValueOrderView.messageArry.push(tempNode);
+							}
+						} else {
+							addValueOrderView.messageArry.push(item);
+						}
+					});
+					
+					addValueOrderView.contractItems(contractItems);
+				
+					/* 获取客户信息数据 */
+					getClientInfoFn({customerNo: ko.toJS(dm.frm).customerNo}).then(result=>{
+						addValueOrderView.baseInfo.customerName(ko.toJS(dm.frm).customerName);
+						addValueOrderView.baseInfo.employeeName(ko.toJS(dm.frm).createBy);
+						addValueOrderView.baseInfo.customerNo(ko.toJS(dm.frm).customerNo);
+						addValueOrderView.baseInfo.contractTime(ko.toJS(dm.frm).beginDate);
+						addValueOrderView.baseInfo.applyTime(now);
+						
+						addValueOrderView.baseInfo.operateName(result[0]['operateName']);
+						addValueOrderView.baseInfo.operatePhone(result[0]['operatePhone']);
+						addValueOrderView.baseInfo.departmentName(result[0]['department']);
+					});
+					
+					$('#addValueOrder').css('display', 'block');
+					$('#baseOrder').css('display', 'none');
+					$('#cloudOrder').css('display', 'none');
+					break;
+			};
+			console.log('messageArry', ko.toJS(baseOrderView.messageArry))
+
+			$('#tabOrder').removeClass('eventNone');
+			$('#tabOrder').click();
+		}
+	};
+	// 客户名称变化 带出乙方公司
+	dm.frm.customerId.subscribe((val)=>{
+		console.log(val)
+		if (val) {
+			//乙方公司
+			getSecondPartyByCustomer(dm.frm.customerId()).then(ret => {
+				dm.dict.secondParty(ret)
+			})
+		} else {
+			dm.dict.secondParty([])
+		}
+	});
+	dm.init = function(){
+		/* contract.product.getAllProductNew().then(function(r){
+			var d = $.toJS(r).value || [];
+			!!d && d.length>0 && dm.dict.product($.map(d,function(n){return $.extend(n,{id:n['productId'],value:n['productName']});}));
+		}); */
+		
+		http.get(s_ucenterservice + '/dataDictionary/getFromRedis/','code=type').then(function(r) {
+			var d = $.extend({status:null,DataDictionaryList:[]},$.toJS(r));
+			!!d && d.status == true && !!d.DataDictionaryList && d.DataDictionaryList.length>0 
+			&& dm.dict.type(
+					$.map(d.DataDictionaryList,function(n){return $.extend(n,{id:n['item_code'],value:n['description']});}));
+			}); 
+		};
+	dm.init();
+	ko.applyBindings(dm, document.getElementById('tab1'));
+	
+});
+function onCustomerNameSelect(event, ui){
+	//自动生成id及no的方法
+	dm.frm.customerNo(ui['item']['customerNo']);
+	dm.frm.customerId(ui['item']['id']);
+	dm.frm.customerName(ui['item']['customerName']);
+	//取该客户支付方式
+	getPayMethod(ui['item']['id']);
+
+}
+
+function getPayMethod(id){
+	http.get(s_ucenterservice + '/contract/getCustomerPaymethod/','customerId='+id+'').then(function(r) {
+		dm.dict.payMethod(
+				$.map(r,function(n){
+					return $.extend(n,{id:n['payMethodCode'],value:n['description']});
+					})
+				);
+	});
+}
+
+function getProductType(products){
+	//根据产品分类自动判断业务类型
+	var sal=false;
+	var ccs=false;
+	var vas=false;
+	var res1=false;
+	var res2=false;
+	let cate = ['VLAN类', '基础VLAN类', '云VLAN类', 'GPN类', '端口类', 'IP类', '带宽类', '云带宽类', ''];
+	let flag = true
+	console.log(products)
+	for(var i = 0 ; products.length>i;i++){
+		if(!products[i].proType){
+			return false;
+		}
+		if(!products[i].proSubType){
+			return false;
+		}
+		if(products[i].proType.indexOf("SAL-设备销售类")>=0){
+			sal=true;
+		}else if(products[i].proType.indexOf("CCS-云计算类")>=0){
+			ccs=true;
+		}else if(products[i].proType.indexOf("VAS-增值服务类")>=0){
+			vas=true;
+		}else if(products[i].proType.indexOf("RES-基础资源类")>=0){
+			if(products[i].proSubType.indexOf("GPN类")>=0
+					||products[i].proSubType.indexOf("IP类")>=0
+					||products[i].proSubType.indexOf("VLAN类")>=0
+					||products[i].proSubType.indexOf("带宽类")>=0
+					||products[i].proSubType.indexOf("端口类")>=0
+					){
+				res1=true;
+			}else{
+				res2=true;
+			}
+		}else{
+			return false;
+		}
+		if (!cate.includes(products[i].proSubType)) {
+			flag = false
+		}
+	}
+	dm.flag(flag)
+	if(sal && !ccs && !vas && !res1 && !res2){
+		dm.frm.type(4);//代购
+		return true;
+	}else if(!sal && !ccs && vas && !res1 && !res2){
+		dm.frm.type(2);//增值服务
+		return true;
+	}else if(!sal && !ccs && !vas && (res1 || res2)){
+		if (flag) dm.frm.type('');
+		else dm.frm.type(1);//基础服务
+		return true;
+	}else if(!sal && !vas && !res2 && ccs){
+		dm.frm.type(3);//云平台
+		return true;
+	}else{
+		//dm.frm.type('');
+		return false;
+	}
+}
+</script>
+
+<ul class="ui-autocomplete ui-front ui-menu ui-widget ui-widget-content" id="ui-id-11" tabindex="0" style="display: none;"></ul><span role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></span><ul class="ui-autocomplete ui-front ui-menu ui-widget ui-widget-content" id="ui-id-12" tabindex="0" style="display: none;"></ul><span role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></span><ul class="ui-autocomplete ui-front ui-menu ui-widget ui-widget-content" id="ui-id-13" tabindex="0" style="display: none;"></ul><span role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></span><ul class="ui-autocomplete ui-front ui-menu ui-widget ui-widget-content" id="ui-id-14" tabindex="0" style="display: none;"></ul><span role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></span><ul class="ui-autocomplete ui-front ui-menu ui-widget ui-widget-content" id="ui-id-15" tabindex="0" style="display: none;"></ul><span role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></span><div class="daterangepicker dropdown-menu single opensright show-calendar" style="top: 355px; left: 195px; right: auto;"><div class="calendar first single right" style="display: block;"><div class="calendar-date"><table class="table-condensed"><thead><tr><th></th><th colspan="5" class="month"><select class="monthselect"><option value="9" selected="selected">十月</option><option value="10">十一月</option><option value="11">十二月</option></select><select class="yearselect"><option value="2019" selected="selected">2019</option><option value="2020">2020</option><option value="2021">2021</option><option value="2022">2022</option><option value="2023">2023</option><option value="2024">2024</option></select></th><th class="next available"><i class="fa fa-arrow-right icon icon-arrow-right glyphicon glyphicon-arrow-right"></i></th></tr><tr><th>一</th><th>二</th><th>三</th><th>四</th><th>五</th><th>六</th><th>日</th></tr></thead><tbody><tr><td class="off disabled" data-title="r0c0">30</td><td class="off disabled" data-title="r0c1">1</td><td class="off disabled" data-title="r0c2">2</td><td class="off disabled" data-title="r0c3">3</td><td class="off disabled" data-title="r0c4">4</td><td class="off disabled" data-title="r0c5">5</td><td class="off disabled" data-title="r0c6">6</td></tr><tr><td class="off disabled" data-title="r1c0">7</td><td class="off disabled" data-title="r1c1">8</td><td class="off disabled" data-title="r1c2">9</td><td class="off disabled" data-title="r1c3">10</td><td class="off disabled" data-title="r1c4">11</td><td class="off disabled" data-title="r1c5">12</td><td class="off disabled" data-title="r1c6">13</td></tr><tr><td class="off disabled" data-title="r2c0">14</td><td class="off disabled" data-title="r2c1">15</td><td class="off disabled" data-title="r2c2">16</td><td class="off disabled" data-title="r2c3">17</td><td class="off disabled" data-title="r2c4">18</td><td class="available active start-date end-date" data-title="r2c5">19</td><td class="available" data-title="r2c6">20</td></tr><tr><td class="available" data-title="r3c0">21</td><td class="available" data-title="r3c1">22</td><td class="available" data-title="r3c2">23</td><td class="available" data-title="r3c3">24</td><td class="available" data-title="r3c4">25</td><td class="available" data-title="r3c5">26</td><td class="available" data-title="r3c6">27</td></tr><tr><td class="available" data-title="r4c0">28</td><td class="available" data-title="r4c1">29</td><td class="available" data-title="r4c2">30</td><td class="available" data-title="r4c3">31</td><td class="available off" data-title="r4c4">1</td><td class="available off" data-title="r4c5">2</td><td class="available off" data-title="r4c6">3</td></tr><tr><td class="available off" data-title="r5c0">4</td><td class="available off" data-title="r5c1">5</td><td class="available off" data-title="r5c2">6</td><td class="available off" data-title="r5c3">7</td><td class="available off" data-title="r5c4">8</td><td class="available off" data-title="r5c5">9</td><td class="available off" data-title="r5c6">10</td></tr></tbody></table></div></div><div class="calendar second left" style="display: none;"><div class="calendar-date"><table class="table-condensed"><thead><tr><th></th><th colspan="5" class="month"><select class="monthselect"><option value="9" selected="selected">十月</option><option value="10">十一月</option><option value="11">十二月</option></select><select class="yearselect"><option value="2019" selected="selected">2019</option><option value="2020">2020</option><option value="2021">2021</option><option value="2022">2022</option><option value="2023">2023</option><option value="2024">2024</option></select></th><th class="next available"><i class="fa fa-arrow-right icon icon-arrow-right glyphicon glyphicon-arrow-right"></i></th></tr><tr><th>一</th><th>二</th><th>三</th><th>四</th><th>五</th><th>六</th><th>日</th></tr></thead><tbody><tr><td class="off disabled" data-title="r0c0">30</td><td class="off disabled" data-title="r0c1">1</td><td class="off disabled" data-title="r0c2">2</td><td class="off disabled" data-title="r0c3">3</td><td class="off disabled" data-title="r0c4">4</td><td class="off disabled" data-title="r0c5">5</td><td class="off disabled" data-title="r0c6">6</td></tr><tr><td class="off disabled" data-title="r1c0">7</td><td class="off disabled" data-title="r1c1">8</td><td class="off disabled" data-title="r1c2">9</td><td class="off disabled" data-title="r1c3">10</td><td class="off disabled" data-title="r1c4">11</td><td class="off disabled" data-title="r1c5">12</td><td class="off disabled" data-title="r1c6">13</td></tr><tr><td class="off disabled" data-title="r2c0">14</td><td class="off disabled" data-title="r2c1">15</td><td class="off disabled" data-title="r2c2">16</td><td class="off disabled" data-title="r2c3">17</td><td class="off disabled" data-title="r2c4">18</td><td class="available active start-date end-date" data-title="r2c5">19</td><td class="available" data-title="r2c6">20</td></tr><tr><td class="available" data-title="r3c0">21</td><td class="available" data-title="r3c1">22</td><td class="available" data-title="r3c2">23</td><td class="available" data-title="r3c3">24</td><td class="available" data-title="r3c4">25</td><td class="available" data-title="r3c5">26</td><td class="available" data-title="r3c6">27</td></tr><tr><td class="available" data-title="r4c0">28</td><td class="available" data-title="r4c1">29</td><td class="available" data-title="r4c2">30</td><td class="available" data-title="r4c3">31</td><td class="available off" data-title="r4c4">1</td><td class="available off" data-title="r4c5">2</td><td class="available off" data-title="r4c6">3</td></tr><tr><td class="available off" data-title="r5c0">4</td><td class="available off" data-title="r5c1">5</td><td class="available off" data-title="r5c2">6</td><td class="available off" data-title="r5c3">7</td><td class="available off" data-title="r5c4">8</td><td class="available off" data-title="r5c5">9</td><td class="available off" data-title="r5c6">10</td></tr></tbody></table></div></div><div class="ranges" style="display: none;"><div class="range_inputs"><div class="daterangepicker_start_input"><label for="daterangepicker_start">从</label><input class="input-mini" type="text" name="daterangepicker_start" value=""></div><div class="daterangepicker_end_input"><label for="daterangepicker_end">到</label><input class="input-mini" type="text" name="daterangepicker_end" value=""></div><button class="applyBtn btn btn-small btn-sm btn-success">确定</button>&nbsp;<button class="cancelBtn btn btn-small btn-sm btn-default">清空</button></div></div></div><div class="daterangepicker dropdown-menu single opensright show-calendar" style="top: 355px; left: 590px; right: auto;"><div class="calendar first single right" style="display: block;"><div class="calendar-date"><table class="table-condensed"><thead><tr><th></th><th colspan="5" class="month"><select class="monthselect"><option value="9" selected="selected">十月</option><option value="10">十一月</option><option value="11">十二月</option></select><select class="yearselect"><option value="2019" selected="selected">2019</option><option value="2020">2020</option><option value="2021">2021</option><option value="2022">2022</option><option value="2023">2023</option><option value="2024">2024</option></select></th><th class="next available"><i class="fa fa-arrow-right icon icon-arrow-right glyphicon glyphicon-arrow-right"></i></th></tr><tr><th>一</th><th>二</th><th>三</th><th>四</th><th>五</th><th>六</th><th>日</th></tr></thead><tbody><tr><td class="off disabled" data-title="r0c0">30</td><td class="off disabled" data-title="r0c1">1</td><td class="off disabled" data-title="r0c2">2</td><td class="off disabled" data-title="r0c3">3</td><td class="off disabled" data-title="r0c4">4</td><td class="off disabled" data-title="r0c5">5</td><td class="off disabled" data-title="r0c6">6</td></tr><tr><td class="off disabled" data-title="r1c0">7</td><td class="off disabled" data-title="r1c1">8</td><td class="off disabled" data-title="r1c2">9</td><td class="off disabled" data-title="r1c3">10</td><td class="off disabled" data-title="r1c4">11</td><td class="off disabled" data-title="r1c5">12</td><td class="off disabled" data-title="r1c6">13</td></tr><tr><td class="off disabled" data-title="r2c0">14</td><td class="off disabled" data-title="r2c1">15</td><td class="off disabled" data-title="r2c2">16</td><td class="off disabled" data-title="r2c3">17</td><td class="off disabled" data-title="r2c4">18</td><td class="available active start-date end-date" data-title="r2c5">19</td><td class="available" data-title="r2c6">20</td></tr><tr><td class="available" data-title="r3c0">21</td><td class="available" data-title="r3c1">22</td><td class="available" data-title="r3c2">23</td><td class="available" data-title="r3c3">24</td><td class="available" data-title="r3c4">25</td><td class="available" data-title="r3c5">26</td><td class="available" data-title="r3c6">27</td></tr><tr><td class="available" data-title="r4c0">28</td><td class="available" data-title="r4c1">29</td><td class="available" data-title="r4c2">30</td><td class="available" data-title="r4c3">31</td><td class="available off" data-title="r4c4">1</td><td class="available off" data-title="r4c5">2</td><td class="available off" data-title="r4c6">3</td></tr><tr><td class="available off" data-title="r5c0">4</td><td class="available off" data-title="r5c1">5</td><td class="available off" data-title="r5c2">6</td><td class="available off" data-title="r5c3">7</td><td class="available off" data-title="r5c4">8</td><td class="available off" data-title="r5c5">9</td><td class="available off" data-title="r5c6">10</td></tr></tbody></table></div></div><div class="calendar second left" style="display: none;"><div class="calendar-date"><table class="table-condensed"><thead><tr><th></th><th colspan="5" class="month"><select class="monthselect"><option value="9" selected="selected">十月</option><option value="10">十一月</option><option value="11">十二月</option></select><select class="yearselect"><option value="2019" selected="selected">2019</option><option value="2020">2020</option><option value="2021">2021</option><option value="2022">2022</option><option value="2023">2023</option><option value="2024">2024</option></select></th><th class="next available"><i class="fa fa-arrow-right icon icon-arrow-right glyphicon glyphicon-arrow-right"></i></th></tr><tr><th>一</th><th>二</th><th>三</th><th>四</th><th>五</th><th>六</th><th>日</th></tr></thead><tbody><tr><td class="off disabled" data-title="r0c0">30</td><td class="off disabled" data-title="r0c1">1</td><td class="off disabled" data-title="r0c2">2</td><td class="off disabled" data-title="r0c3">3</td><td class="off disabled" data-title="r0c4">4</td><td class="off disabled" data-title="r0c5">5</td><td class="off disabled" data-title="r0c6">6</td></tr><tr><td class="off disabled" data-title="r1c0">7</td><td class="off disabled" data-title="r1c1">8</td><td class="off disabled" data-title="r1c2">9</td><td class="off disabled" data-title="r1c3">10</td><td class="off disabled" data-title="r1c4">11</td><td class="off disabled" data-title="r1c5">12</td><td class="off disabled" data-title="r1c6">13</td></tr><tr><td class="off disabled" data-title="r2c0">14</td><td class="off disabled" data-title="r2c1">15</td><td class="off disabled" data-title="r2c2">16</td><td class="off disabled" data-title="r2c3">17</td><td class="off disabled" data-title="r2c4">18</td><td class="available active start-date end-date" data-title="r2c5">19</td><td class="available" data-title="r2c6">20</td></tr><tr><td class="available" data-title="r3c0">21</td><td class="available" data-title="r3c1">22</td><td class="available" data-title="r3c2">23</td><td class="available" data-title="r3c3">24</td><td class="available" data-title="r3c4">25</td><td class="available" data-title="r3c5">26</td><td class="available" data-title="r3c6">27</td></tr><tr><td class="available" data-title="r4c0">28</td><td class="available" data-title="r4c1">29</td><td class="available" data-title="r4c2">30</td><td class="available" data-title="r4c3">31</td><td class="available off" data-title="r4c4">1</td><td class="available off" data-title="r4c5">2</td><td class="available off" data-title="r4c6">3</td></tr><tr><td class="available off" data-title="r5c0">4</td><td class="available off" data-title="r5c1">5</td><td class="available off" data-title="r5c2">6</td><td class="available off" data-title="r5c3">7</td><td class="available off" data-title="r5c4">8</td><td class="available off" data-title="r5c5">9</td><td class="available off" data-title="r5c6">10</td></tr></tbody></table></div></div><div class="ranges" style="display: none;"><div class="range_inputs"><div class="daterangepicker_start_input"><label for="daterangepicker_start">从</label><input class="input-mini" type="text" name="daterangepicker_start" value=""></div><div class="daterangepicker_end_input"><label for="daterangepicker_end">到</label><input class="input-mini" type="text" name="daterangepicker_end" value=""></div><button class="applyBtn btn btn-small btn-sm btn-success">确定</button>&nbsp;<button class="cancelBtn btn btn-small btn-sm btn-default">清空</button></div></div></div><ul class="ui-autocomplete ui-front ui-menu ui-widget ui-widget-content" id="ui-id-16" tabindex="0" style="display: none;"></ul><span role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></span></body></html>
